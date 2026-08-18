@@ -10,24 +10,28 @@ const cards = [
     value: data.repositories,
     label: "REPOSITORIES",
     action: "View all →",
+    emoji: "📁",
   },
   {
     key: "followers",
     value: data.followers,
     label: "FOLLOWERS",
     action: "View profile →",
+    emoji: "👥",
   },
   {
     key: "stars",
     value: data.stars,
     label: "STARS",
     action: "View repositories →",
+    emoji: "⭐",
   },
   {
     key: "joined",
     value: data.joined,
     label: "JOINED GITHUB",
     action: "View profile →",
+    emoji: "🎓",
   },
 ];
 
@@ -36,25 +40,37 @@ function createCard(card) {
 <svg
   xmlns="http://www.w3.org/2000/svg"
   width="280"
-  height="170"
-  viewBox="0 0 280 170"
+  height="180"
+  viewBox="0 0 280 180"
   role="img"
   aria-label="${card.value} ${card.label}"
 >
+
+  <!-- Background -->
   <rect
     x="2"
     y="2"
     width="276"
-    height="166"
-    rx="20"
+    height="176"
+    rx="22"
     fill="#FCFAFF"
     stroke="#DDD2F4"
     stroke-width="2"
   />
 
+  <!-- Emoji -->
   <text
     x="140"
-    y="72"
+    y="49"
+    text-anchor="middle"
+    font-family="Apple Color Emoji, Segoe UI Emoji, sans-serif"
+    font-size="25"
+  >${card.emoji}</text>
+
+  <!-- Main number -->
+  <text
+    x="140"
+    y="94"
     text-anchor="middle"
     font-family="Arial, Helvetica, sans-serif"
     font-size="38"
@@ -62,9 +78,10 @@ function createCard(card) {
     fill="#29233D"
   >${card.value}</text>
 
+  <!-- Label -->
   <text
     x="140"
-    y="103"
+    y="120"
     text-anchor="middle"
     font-family="Arial, Helvetica, sans-serif"
     font-size="11"
@@ -73,14 +90,17 @@ function createCard(card) {
     fill="#665D78"
   >${card.label}</text>
 
+  <!-- Action -->
   <text
     x="140"
-    y="137"
+    y="151"
     text-anchor="middle"
     font-family="Arial, Helvetica, sans-serif"
     font-size="12"
+    font-weight="500"
     fill="#8064C8"
   >${card.action}</text>
+
 </svg>
 `;
 }
@@ -94,7 +114,7 @@ for (const card of cards) {
   );
 }
 
-console.log("Generated GitHub cards.");
+console.log("Generated GitHub cards:");
 
 for (const card of cards) {
   console.log(`✓ ${card.label}: ${card.value}`);

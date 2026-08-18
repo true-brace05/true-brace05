@@ -46,11 +46,51 @@ competitive programming, and open source.
 
 <div align="center">
 
+<table>
+<tr>
+
+<td>
+<a href="https://github.com/true-brace05?tab=repositories">
 <img
-  src="assets/github-metrics.svg"
-  width="100%"
-  alt="GitHub profile statistics"
+  src="assets/cards/repositories.svg"
+  width="210"
+  alt="10 repositories"
 />
+</a>
+</td>
+
+<td>
+<a href="https://github.com/true-brace05?tab=followers">
+<img
+  src="assets/cards/followers.svg"
+  width="210"
+  alt="0 followers"
+/>
+</a>
+</td>
+
+<td>
+<a href="https://github.com/true-brace05?tab=repositories">
+<img
+  src="assets/cards/stars.svg"
+  width="210"
+  alt="0 stars"
+/>
+</a>
+</td>
+
+<td>
+<a href="https://github.com/true-brace05">
+<img
+  src="assets/cards/joined.svg"
+  width="210"
+  alt="Joined GitHub in 2024"
+/>
+</a>
+</td>
+
+</tr>
+</table>
 
 </div>
 
@@ -157,33 +197,18 @@ View repository →
 
 ---
 
+---
+
 ## GITHUB ACTIVITY
+
 
 <div align="center">
 
 <img
-  src="https://github-readme-activity-graph.vercel.app/graph?username=true-brace05&theme=github-compact&hide_border=true&area=true"
-  width="95%"
+  src="assets/contribution-graph.svg"
+  width="100%"
   alt="GitHub contribution activity"
 />
-
-<br><br>
-
-<a href="https://github.com/true-brace05">
-<img
-  src="https://github-readme-stats.vercel.app/api?username=true-brace05&show_icons=true&hide_border=true&theme=transparent"
-  height="170"
-  alt="GitHub statistics"
-/>
-</a>
-
-<a href="https://github.com/true-brace05?tab=repositories">
-<img
-  src="https://github-readme-stats.vercel.app/api/top-langs/?username=true-brace05&layout=compact&hide_border=true&theme=transparent"
-  height="170"
-  alt="Top languages"
-/>
-</a>
 
 </div>
 
