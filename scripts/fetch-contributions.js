@@ -1,230 +1,362 @@
-import fs from "node:fs";
+import fs from "fs";
 
 const USERNAME = "true-brace05";
-const URL = `https://github.com/users/${USERNAME}/contributions`;
+const OUTPUT = "assets/contribution-graph.svg";
 
-const response = await fetch(URL, {
-  headers: {
-    "User-Agent": "true-brace05-dashboard",
-  },
-});
+const WIDTH = 1120;
+const HEIGHT = 210;
 
-if (!response.ok) {
-  throw new Error(
-    `GitHub returned ${response.status} ${response.statusText}`
+const LEFT = 55;
+const TOP = 48;
+
+const CELL = 15;
+const GAP = 4;
+const STEP = CELL + GAP;
+
+const COLORS = {
+  background: "#FCFAFF",
+  empty: "#F0E9FA",
+  level1: "#E2D2F7",
+  level2: "#C5A7ED",
+  level3: "#9B72D8",
+  level4: "#7042B8",
+  text: "#5E536F",
+  border: "#E5DAF2",
+};
+
+function escapeXml(value) {
+  return String(value)
+    .replaceAll("&", "&amp;")
+    .replaceAll("<", "&lt;")
+    .replaceAll(">", "&gt;")
+    .replaceAll('"', "&quot;")
+    .replaceAll("'", "&apos;");
+}
+
+function getAttribute(tag, name) {
+  const regex = new RegExp(
+    `${name}\\s*=\\s*["']([^"']*)["']`,
+    "i"
+  );
+
+  const match = tag.match(regex);
+  return match ? match[1] : null;
+}
+
+function parseContributionCells(html) {
+  const cells = [];
+
+  const tdRegex = /<td\b[^>]*>/gi;
+  const tags = html.match(tdRegex) || [];
+
+  for (const tag of tags) {
+    const date = getAttribute(tag, "data-date");
+    const level = getAttribute(tag, "data-level");
+
+    if (!date) continue;
+
+    cells.push({
+      date,
+      level: Number(level ?? 0),
+    });
+  }
+
+  return cells;
+}
+
+function dateFromString(value) {
+  return new Date(`${value}T00:00:00Z`);
+}
+
+function startOfSunday(date) {
+  const d = new Date(date);
+  const day = d.getUTCDay();
+
+  d.setUTCDate(d.getUTCDate() - day);
+
+  return d;
+}
+
+function daysBetween(a, b) {
+  return Math.round(
+    (b.getTime() - a.getTime()) / (1000 * 60 * 60 * 24)
   );
 }
 
-const html = await response.text();
+function getMonthLabels(cells, firstSunday) {
+  const labels = [];
+  const seen = new Set();
 
-// GitHub currently exposes contribution days as table cells.
-// We only need the date and contribution level.
-const cellRegex =
-  /<td[^>]*data-date="([^"]+)"[^>]*data-level="([^"]+)"[^>]*>/g;
+  for (const cell of cells) {
+    const date = dateFromString(cell.date);
 
-const cells = [];
+    if (date.getUTCDate() > 7) continue;
 
-for (const match of html.matchAll(cellRegex)) {
-  cells.push({
-    date: match[1],
-    level: Number(match[2]),
-  });
-}
+    const weekIndex = Math.floor(
+      daysBetween(firstSunday, startOfSunday(date)) / 7
+    );
 
-if (cells.length === 0) {
-  throw new Error("Could not find contribution cells.");
-}
+    const monthKey = `${date.getUTCFullYear()}-${date.getUTCMonth()}`;
 
-console.log(`Found ${cells.length} contribution cells.`);
+    if (seen.has(monthKey)) continue;
 
-const width = 1120;
-const height = 190;
+    seen.add(monthKey);
 
-const left = 55;
-const top = 35;
-
-const cellSize = 15;
-const gap = 4;
-const step = cellSize + gap;
-
-const colors = [
-  "#F1ECFA",
-  "#E2D5F4",
-  "#CDB8EA",
-  "#B095DD",
-  "#8064C8",
-];
-
-function getWeekStart(dateString) {
-  const date = new Date(`${dateString}T00:00:00Z`);
-  const day = date.getUTCDay();
-
-  date.setUTCDate(date.getUTCDate() - day);
-
-  return date.toISOString().slice(0, 10);
-}
-
-const weeks = new Map();
-
-for (const cell of cells) {
-  const week = getWeekStart(cell.date);
-
-  if (!weeks.has(week)) {
-    weeks.set(week, []);
+    labels.push({
+      text: date.toLocaleString("en-US", {
+        month: "short",
+        timeZone: "UTC",
+      }),
+      weekIndex,
+    });
   }
 
-  weeks.get(week).push(cell);
+  return labels;
 }
 
-const sortedWeeks = [...weeks.entries()].sort(
-  ([a], [b]) => new Date(a) - new Date(b)
-);
+async function main() {
+  const url = `https://github.com/users/${USERNAME}/contributions`;
 
-const svg = [];
-
-svg.push(`
-<svg
-  xmlns="http://www.w3.org/2000/svg"
-  width="${width}"
-  height="${height}"
-  viewBox="0 0 ${width} ${height}"
-  role="img"
-  aria-label="GitHub contribution activity for ${USERNAME}"
->
-
-<rect
-  width="${width}"
-  height="${height}"
-  rx="24"
-  fill="#FFFFFF"
-/>
-
-<text
-  x="30"
-  y="34"
-  font-family="Arial, Helvetica, sans-serif"
-  font-size="17"
-  font-weight="700"
-  fill="#29233D"
->
-  GITHUB ACTIVITY
-</text>
-`);
-
-let previousMonth = "";
-
-for (let weekIndex = 0; weekIndex < sortedWeeks.length; weekIndex++) {
-  const [weekStart] = sortedWeeks[weekIndex];
-
-  const date = new Date(`${weekStart}T00:00:00Z`);
-
-  const month = date.toLocaleString("en-US", {
-    month: "short",
-    timeZone: "UTC",
+  const response = await fetch(url, {
+    headers: {
+      "User-Agent": "true-brace05-dashboard",
+    },
   });
 
-  if (month !== previousMonth) {
-    svg.push(`
-
-`);
-
-    previousMonth = month;
+  if (!response.ok) {
+    throw new Error(
+      `GitHub returned HTTP ${response.status}`
+    );
   }
-}
 
-const dayLabels = [
-  ["Sun", 0],
-  ["Mon", 1],
-  ["Wed", 3],
-  ["Fri", 5],
-];
+  const html = await response.text();
 
-for (const [label, day] of dayLabels) {
+  const cells = parseContributionCells(html);
+
+  if (cells.length === 0) {
+    throw new Error(
+      "Could not find contribution cells in GitHub's response."
+    );
+  }
+
+  console.log(`Found ${cells.length} contribution cells.`);
+
+  cells.sort((a, b) => a.date.localeCompare(b.date));
+
+  const firstDate = dateFromString(cells[0].date);
+  const firstSunday = startOfSunday(firstDate);
+
+  const cellMap = new Map();
+
+  for (const cell of cells) {
+    const date = dateFromString(cell.date);
+
+    const weekIndex = Math.floor(
+      daysBetween(firstSunday, startOfSunday(date)) / 7
+    );
+
+    const dayIndex = date.getUTCDay();
+
+    cellMap.set(`${weekIndex}-${dayIndex}`, {
+      level: cell.level,
+      date: cell.date,
+    });
+  }
+
+  const maxWeek = Math.max(
+    ...cells.map((cell) => {
+      const date = dateFromString(cell.date);
+
+      return Math.floor(
+        daysBetween(firstSunday, startOfSunday(date)) / 7
+      );
+    })
+  );
+
+  const weekCount = maxWeek + 1;
+
+  const monthLabels = getMonthLabels(
+    cells,
+    firstSunday
+  );
+
+  const svg = [];
+
+  svg.push(
+    `<svg xmlns="http://www.w3.org/2000/svg"`,
+    ` width="${WIDTH}"`,
+    ` height="${HEIGHT}"`,
+    ` viewBox="0 0 ${WIDTH} ${HEIGHT}"`,
+    ` role="img"`,
+    ` aria-label="GitHub contribution activity for ${escapeXml(USERNAME)}">`
+  );
+
   svg.push(`
-<text
-  x="18"
-  y="${top + day * step + 10}"
-  font-family="Arial, Helvetica, sans-serif"
-  font-size="10"
-  fill="#766D86"
->
-  ${label}
-</text>
-`);
-}
+  <rect
+    x="1"
+    y="1"
+    width="${WIDTH - 2}"
+    height="${HEIGHT - 2}"
+    rx="18"
+    fill="${COLORS.background}"
+    stroke="${COLORS.border}"
+    stroke-width="1.5"
+  />
+  `);
 
-for (let weekIndex = 0; weekIndex < sortedWeeks.length; weekIndex++) {
-  const [, weekCells] = sortedWeeks[weekIndex];
+  // Month labels
+  for (const month of monthLabels) {
+    const x =
+      LEFT +
+      month.weekIndex * STEP;
 
-  for (const cell of weekCells) {
-    const date = new Date(`${cell.date}T00:00:00Z`);
-    const weekday = date.getUTCDay();
-
-    const x = left + weekIndex * step;
-    const y = top + weekday * step;
-
-    const level = Math.max(0, Math.min(cell.level, 4));
+    if (x < LEFT || x > WIDTH - 80) continue;
 
     svg.push(`
-<rect
-  x="${x}"
-  y="${y}"
-  width="${cellSize}"
-  height="${cellSize}"
-  rx="3"
-  fill="${colors[level]}"
->
-  <title>${cell.date}</title>
-</rect>
-`);
+    <text
+      x="${x}"
+      y="25"
+      font-family="Arial, Helvetica, sans-serif"
+      font-size="11"
+      font-weight="500"
+      fill="${COLORS.text}"
+    >${escapeXml(month.text)}</text>
+    `);
   }
-}
 
-svg.push(`
-<text
-  x="${width - 170}"
-  y="${height - 20}"
-  font-family="Arial, Helvetica, sans-serif"
-  font-size="10"
-  fill="#766D86"
->
-  Less
-</text>
-`);
+  // Weekday labels
+  const weekdayLabels = [
+    
+    { text: "Mon", row: 1 },
+    { text: "Wed", row: 3 },
+    { text: "Fri", row: 5 },
+  ];
 
-for (let i = 0; i < colors.length; i++) {
+  for (const label of weekdayLabels) {
+    const y =
+      TOP +
+      label.row * STEP +
+      CELL - 2;
+
+    svg.push(`
+    <text
+      x="12"
+      y="${y}"
+      font-family="Arial, Helvetica, sans-serif"
+      font-size="10"
+      font-weight="500"
+      fill="${COLORS.text}"
+    >${label.text}</text>
+    `);
+  }
+
+  // Contribution cells
+  for (let week = 0; week < weekCount; week++) {
+    for (let day = 0; day < 7; day++) {
+      const key = `${week}-${day}`;
+      const cell = cellMap.get(key);
+
+      const level = cell?.level ?? 0;
+
+      let fill = COLORS.empty;
+
+      if (level === 1) fill = COLORS.level1;
+      if (level === 2) fill = COLORS.level2;
+      if (level === 3) fill = COLORS.level3;
+      if (level >= 4) fill = COLORS.level4;
+
+      const x =
+        LEFT +
+        week * STEP;
+
+      const y =
+        TOP +
+        day * STEP;
+
+      const title = cell
+        ? `${cell.date} — ${level} contribution level`
+        : "No contributions";
+
+      svg.push(`
+      <rect
+        x="${x}"
+        y="${y}"
+        width="${CELL}"
+        height="${CELL}"
+        rx="3"
+        fill="${fill}"
+      >
+        <title>${escapeXml(title)}</title>
+      </rect>
+      `);
+    }
+  }
+
+  // Legend
+  const legendY = HEIGHT - 27;
+
+  const legendStartX =
+    WIDTH - 180;
+
   svg.push(`
-<rect
-  x="${width - 140 + i * 18}"
-  y="${height - 29}"
-  width="12"
-  height="12"
-  rx="3"
-  fill="${colors[i]}"
-/>
-`);
+  <text
+    x="${legendStartX - 34}"
+    y="${legendY + 10}"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="10"
+    fill="${COLORS.text}"
+  >Less</text>
+  `);
+
+  const legendColors = [
+    COLORS.empty,
+    COLORS.level1,
+    COLORS.level2,
+    COLORS.level3,
+    COLORS.level4,
+  ];
+
+  legendColors.forEach((color, index) => {
+    svg.push(`
+    <rect
+      x="${legendStartX + index * 19}"
+      y="${legendY}"
+      width="13"
+      height="13"
+      rx="3"
+      fill="${color}"
+    />
+    `);
+  });
+
+  svg.push(`
+  <text
+    x="${legendStartX + legendColors.length * 19 + 5}"
+    y="${legendY + 10}"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="10"
+    fill="${COLORS.text}"
+  >More</text>
+  `);
+
+  svg.push("</svg>");
+
+  fs.mkdirSync("assets", {
+    recursive: true,
+  });
+
+  fs.writeFileSync(
+    OUTPUT,
+    svg.join("\n"),
+    "utf8"
+  );
+
+  console.log(
+    `✓ Generated ${OUTPUT}`
+  );
 }
 
-svg.push(`
-<text
-  x="${width - 35}"
-  y="${height - 20}"
-  text-anchor="end"
-  font-family="Arial, Helvetica, sans-serif"
-  font-size="10"
-  fill="#766D86"
->
-  More
-</text>
-
-</svg>
-`);
-
-fs.mkdirSync("assets", { recursive: true });
-
-fs.writeFileSync(
-  "assets/contribution-graph.svg",
-  svg.join("\n").trim()
-);
-
-console.log("✓ Generated assets/contribution-graph.svg");
+main().catch((error) => {
+  console.error(error);
+  process.exit(1);
+});

@@ -1,0 +1,133 @@
+
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="520"
+  height="250"
+  viewBox="0 0 520 250"
+  role="img"
+  aria-label="Brain Tumor Detection CNN"
+>
+
+  <rect
+    x="1"
+    y="1"
+    width="518"
+    height="248"
+    rx="18"
+    fill="#FCFAFF"
+    stroke="#DDD0F0"
+    stroke-width="1.5"
+  />
+
+
+  <rect
+    x="24"
+    y="24"
+    width="6"
+    height="42"
+    rx="3"
+    fill="#7652C7"
+  />
+
+
+    <text
+      x="48"
+      y="45"
+      font-family="Arial, Helvetica, sans-serif"
+      font-size="18"
+      font-weight="700"
+      fill="#29233D"
+    >Brain Tumor Detection CNN</text>
+    
+
+    <text
+      x="48"
+      y="100"
+      font-family="Arial, Helvetica, sans-serif"
+      font-size="13"
+      font-weight="400"
+      fill="#625A70"
+    >MRI-based tumor classification</text>
+    
+
+    <text
+      x="48"
+      y="120"
+      font-family="Arial, Helvetica, sans-serif"
+      font-size="13"
+      font-weight="400"
+      fill="#625A70"
+    >project built with Python and CNN</text>
+    
+
+    <text
+      x="48"
+      y="140"
+      font-family="Arial, Helvetica, sans-serif"
+      font-size="13"
+      font-weight="400"
+      fill="#625A70"
+    >methods.</text>
+    
+
+    <rect
+      x="48"
+      y="168"
+      width="72"
+      height="27"
+      rx="13.5"
+      fill="#EEE6FA"
+    />
+
+    <text
+      x="84"
+      y="186"
+      text-anchor="middle"
+      font-family="Arial, Helvetica, sans-serif"
+      font-size="12"
+      font-weight="600"
+      fill="#6042A5"
+    >Python</text>
+  
+
+    <rect
+      x="128"
+      y="168"
+      width="48"
+      height="27"
+      rx="13.5"
+      fill="#EEE6FA"
+    />
+
+    <text
+      x="152"
+      y="186"
+      text-anchor="middle"
+      font-family="Arial, Helvetica, sans-serif"
+      font-size="12"
+      font-weight="600"
+      fill="#6042A5"
+    >CNN</text>
+  
+
+  <line
+    x1="48"
+    y1="211"
+    x2="472"
+    y2="211"
+    stroke="#DDD0F0"
+    stroke-width="1"
+  />
+
+
+  <text
+    x="48"
+    y="234"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="12"
+    font-weight="600"
+    fill="#7652C7"
+  >View repository →</text>
+
+
+</svg>

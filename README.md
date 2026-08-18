@@ -98,41 +98,31 @@ competitive programming, and open source.
 
 ## FEATURED PROJECTS
 
+## FEATURED PROJECTS
+
+<div align="center">
+
 <table>
 <tr>
 
 <td width="50%" valign="top">
-
-### GPU-Accelerated Order Book Simulator
-
-CUDA-based limit order book simulator for
-benchmarking matching performance under GPU parallelism.
-
-`C++` `CUDA`
-
-<br>
-
 <a href="https://github.com/true-brace05/gpu-orderbook-simulator">
-View repository →
+<img
+  src="assets/cards/orderbook.svg"
+  width="100%"
+  alt="GPU-Accelerated Order Book Simulator"
+/>
 </a>
-
 </td>
 
 <td width="50%" valign="top">
-
-### C++ Matching Engine
-
-Limit order matching engine focused on
-price-time priority, matching and cancellation.
-
-`C++`
-
-<br>
-
-<a href="YOUR_MATCHING_ENGINE_REPO">
-View repository →
+<a href="https://github.com/true-brace05/Matching-Engine-CPP">
+<img
+  src="assets/cards/matching-engine.svg"
+  width="100%"
+  alt="C++ Matching Engine"
+/>
 </a>
-
 </td>
 
 </tr>
@@ -140,61 +130,74 @@ View repository →
 <tr>
 
 <td width="50%" valign="top">
-
-### Brain Tumor Detection CNN
-
-MRI-based tumor classification project.
-
-`Python` `CNN`
-
-<br>
-
-<a href="YOUR_CNN_REPO">
-View repository →
+<a href="https://huggingface.co/spaces/divisivefallacy/Brain-Tumor-Detection">
+<img
+  src="assets/cards/brain-tumor.svg"
+  width="100%"
+  alt="Brain Tumor Detection CNN"
+/>
 </a>
-
 </td>
 
 <td width="50%" valign="top">
-
-### Lossless RGB Compression Engine
-
-Huffman-coding-based lossless compression
-for RGB image data.
-
-`C++`
-
-<br>
-
-<a href="YOUR_COMPRESSION_REPO">
-View repository →
+<a href="https://github.com/true-brace05/huffman_coding">
+<img
+  src="assets/cards/compression.svg"
+  width="100%"
+  alt="Lossless RGB Compression Engine"
+/>
 </a>
+</td>
+
+</tr>
+</table>
+
+</div>
+
+--- 
+
+
+## TECH STACK
+
+<div align="center">
+
+<table>
+<tr>
+
+<td width="33%" valign="top" align="center">
+
+### Languages
+
+`C++`  
+`Python`  
+`C`  
+`CUDA`
+
+</td>
+
+<td width="33%" valign="top" align="center">
+
+### Tools & Technologies
+
+`Git`  
+`Linux`  
+`CMake`
+
+</td>
+
+<td width="33%" valign="top" align="center">
+
+### Currently Learning
+
+`PyTorch`  
+`Open Source Development`
 
 </td>
 
 </tr>
 </table>
 
----
-
-## TECH STACK
-
-<div align="center">
-
-| C++ | Python | CUDA |
-|:---:|:---:|:---:|
-| Systems | Machine Learning | GPU Computing |
-
-| C | Git | Linux |
-|:---:|:---:|:---:|
-| Programming | Version Control | Development |
-
-| CMake | DSA | PyTorch |
-|:---:|:---:|:---:|
-| Build Systems | Problem Solving | Currently Learning |
-
 </div>
-
 ---
 
 ---
@@ -216,38 +219,60 @@ View repository →
 
 ## OPEN SOURCE JOURNEY
 
-Currently learning how to contribute to real codebases —
-starting with small issues I can understand end-to-end and
-gradually taking on larger contributions.
-
-<br>
-
 <div align="center">
 
-**Learning → Understanding → Contributing → Building**
+<table>
+<tr>
+
+<td width="70%" align="center">
+
+Learning how to contribute to real-world codebases — starting with
+issues I can understand end-to-end, learning from maintainers, and
+gradually taking on larger contributions.
+
+<br><br>
+
+`Understand` · `Build` · `Contribute`
+
+</td>
+
+</tr>
+</table>
 
 </div>
-
 ---
 
 ## LET'S CONNECT
 
 <div align="center">
 
-<a href="https://www.linkedin.com/in/astha-bansal05/">LinkedIn</a>
-&nbsp;&nbsp;·&nbsp;&nbsp;
-<a href="https://huggingface.co/divisivefallacy">Hugging Face</a>
-&nbsp;&nbsp;·&nbsp;&nbsp;
-<a href="https://codeforces.com/profile/Truebrace05">Codeforces</a>
-&nbsp;&nbsp;·&nbsp;&nbsp;
-<a href="asthabansal1705@gmail.comL">Email</a>
+<a href="https://github.com/true-brace05">
+GitHub
+</a>
 
-<br><br>
+&nbsp;&nbsp;·&nbsp;&nbsp;
 
-<img
-  src="https://komarev.com/ghpvc/?username=true-brace05&style=flat-square&color=8B7355&label=profile+views"
-  alt="Profile views"
-/>
+<a href="https://www.linkedin.com/in/astha-bansal05/">
+LinkedIn
+</a>
+
+&nbsp;&nbsp;·&nbsp;&nbsp;
+
+<a href="https://codeforces.com/profile/Truebrace05">
+Codeforces
+</a>
+
+&nbsp;&nbsp;·&nbsp;&nbsp;
+
+<a href="https://huggingface.co/divisivefallacy">
+Hugging Face
+</a>
+
+&nbsp;&nbsp;·&nbsp;&nbsp;
+
+<a href="asthabansal1705@gmail.com">
+Email
+</a>
 
 <br><br>
 
