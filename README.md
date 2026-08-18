@@ -46,119 +46,13 @@ competitive programming, and open source.
 
 <div align="center">
 
-<table>
-<tr>
-
-<td align="center" width="20%">
-
-### 14
-
-Repositories
-
-<a href="https://github.com/true-brace05?tab=repositories">
-View all →
-</a>
-
-</td>
-
-<td align="center" width="20%">
-
-### 81
-
-Followers
-
-<a href="https://github.com/true-brace05?tab=followers">
-View profile →
-</a>
-
-</td>
-
-<td align="center" width="20%">
-
-### 11
-
-Stars
-
-<a href="https://github.com/true-brace05">
-View all →
-</a>
-
-</td>
-
-<td align="center" width="20%">
-
-### 70+
-
-Contributions
-
-<a href="https://github.com/true-brace05">
-View activity →
-</a>
-
-</td>
-
-<td align="center" width="20%">
-
-### 2023
-
-Joined GitHub
-
-<a href="https://github.com/true-brace05">
-View journey →
-</a>
-
-</td>
-
-</tr>
-</table>
+<img
+  src="assets/github-metrics.svg"
+  width="100%"
+  alt="GitHub profile statistics"
+/>
 
 </div>
-
----
-
-## CURRENT FOCUS
-
-<table>
-<tr>
-
-<td width="50%" valign="top">
-
-### SYSTEMS
-
-Building fast and reliable software with C++.
-
-</td>
-
-<td width="50%" valign="top">
-
-### MACHINE LEARNING
-
-Learning deeply and building ML projects.
-
-</td>
-
-</tr>
-
-<tr>
-
-<td width="50%" valign="top">
-
-### COMPETITIVE PROGRAMMING
-
-Solving problems and improving consistently.
-
-</td>
-
-<td width="50%" valign="top">
-
-### OPEN SOURCE
-
-Exploring codebases and contributing step by step.
-
-</td>
-
-</tr>
-</table>
 
 ---
 

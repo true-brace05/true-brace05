@@ -1,0 +1,318 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="1120"
+  height="190"
+  viewBox="0 0 1120 190"
+  role="img"
+  aria-label="GitHub profile statistics"
+>
+
+  <rect
+    width="1120"
+    height="190"
+    rx="26"
+    fill="#FCFAFF"
+  />
+
+  
+    <g transform="translate(0, 0)">
+      <!-- Card background -->
+      <rect
+        x="8"
+        y="8"
+        width="264"
+        height="174"
+        rx="20"
+        fill="#FFFFFF"
+        stroke="#E4DCF5"
+        stroke-width="2"
+      />
+
+      <!-- Soft accent -->
+      <rect
+        x="28"
+        y="30"
+        width="46"
+        height="46"
+        rx="14"
+        fill="#F0E9FF"
+      />
+
+      <!-- Simple icon -->
+      <circle
+        cx="51"
+        cy="53"
+        r="11"
+        fill="none"
+        stroke="#8064C8"
+        stroke-width="2"
+      />
+
+      <path
+        d="M45 53h12M51 47v12"
+        stroke="#8064C8"
+        stroke-width="2"
+        stroke-linecap="round"
+      />
+
+      <!-- Value -->
+      <text
+        x="140"
+        y="91"
+        text-anchor="middle"
+        font-family="Arial, Helvetica, sans-serif"
+        font-size="38"
+        font-weight="700"
+        fill="#25213A"
+      >10</text>
+
+      <!-- Label -->
+      <text
+        x="140"
+        y="119"
+        text-anchor="middle"
+        font-family="Arial, Helvetica, sans-serif"
+        font-size="12"
+        font-weight="700"
+        letter-spacing="1.4"
+        fill="#625A72"
+      >REPOSITORIES</text>
+
+      <!-- Action -->
+      <text
+        x="140"
+        y="150"
+        text-anchor="middle"
+        font-family="Arial, Helvetica, sans-serif"
+        font-size="12"
+        fill="#8064C8"
+      >View all →</text>
+    </g>
+  
+
+    <g transform="translate(280, 0)">
+      <!-- Card background -->
+      <rect
+        x="8"
+        y="8"
+        width="264"
+        height="174"
+        rx="20"
+        fill="#FFFFFF"
+        stroke="#E4DCF5"
+        stroke-width="2"
+      />
+
+      <!-- Soft accent -->
+      <rect
+        x="28"
+        y="30"
+        width="46"
+        height="46"
+        rx="14"
+        fill="#F0E9FF"
+      />
+
+      <!-- Simple icon -->
+      <circle
+        cx="51"
+        cy="53"
+        r="11"
+        fill="none"
+        stroke="#8064C8"
+        stroke-width="2"
+      />
+
+      <path
+        d="M45 53h12M51 47v12"
+        stroke="#8064C8"
+        stroke-width="2"
+        stroke-linecap="round"
+      />
+
+      <!-- Value -->
+      <text
+        x="140"
+        y="91"
+        text-anchor="middle"
+        font-family="Arial, Helvetica, sans-serif"
+        font-size="38"
+        font-weight="700"
+        fill="#25213A"
+      >0</text>
+
+      <!-- Label -->
+      <text
+        x="140"
+        y="119"
+        text-anchor="middle"
+        font-family="Arial, Helvetica, sans-serif"
+        font-size="12"
+        font-weight="700"
+        letter-spacing="1.4"
+        fill="#625A72"
+      >FOLLOWERS</text>
+
+      <!-- Action -->
+      <text
+        x="140"
+        y="150"
+        text-anchor="middle"
+        font-family="Arial, Helvetica, sans-serif"
+        font-size="12"
+        fill="#8064C8"
+      >View profile →</text>
+    </g>
+  
+
+    <g transform="translate(560, 0)">
+      <!-- Card background -->
+      <rect
+        x="8"
+        y="8"
+        width="264"
+        height="174"
+        rx="20"
+        fill="#FFFFFF"
+        stroke="#E4DCF5"
+        stroke-width="2"
+      />
+
+      <!-- Soft accent -->
+      <rect
+        x="28"
+        y="30"
+        width="46"
+        height="46"
+        rx="14"
+        fill="#F0E9FF"
+      />
+
+      <!-- Simple icon -->
+      <circle
+        cx="51"
+        cy="53"
+        r="11"
+        fill="none"
+        stroke="#8064C8"
+        stroke-width="2"
+      />
+
+      <path
+        d="M45 53h12M51 47v12"
+        stroke="#8064C8"
+        stroke-width="2"
+        stroke-linecap="round"
+      />
+
+      <!-- Value -->
+      <text
+        x="140"
+        y="91"
+        text-anchor="middle"
+        font-family="Arial, Helvetica, sans-serif"
+        font-size="38"
+        font-weight="700"
+        fill="#25213A"
+      >0</text>
+
+      <!-- Label -->
+      <text
+        x="140"
+        y="119"
+        text-anchor="middle"
+        font-family="Arial, Helvetica, sans-serif"
+        font-size="12"
+        font-weight="700"
+        letter-spacing="1.4"
+        fill="#625A72"
+      >STARS</text>
+
+      <!-- Action -->
+      <text
+        x="140"
+        y="150"
+        text-anchor="middle"
+        font-family="Arial, Helvetica, sans-serif"
+        font-size="12"
+        fill="#8064C8"
+      >View repositories →</text>
+    </g>
+  
+
+    <g transform="translate(840, 0)">
+      <!-- Card background -->
+      <rect
+        x="8"
+        y="8"
+        width="264"
+        height="174"
+        rx="20"
+        fill="#FFFFFF"
+        stroke="#E4DCF5"
+        stroke-width="2"
+      />
+
+      <!-- Soft accent -->
+      <rect
+        x="28"
+        y="30"
+        width="46"
+        height="46"
+        rx="14"
+        fill="#F0E9FF"
+      />
+
+      <!-- Simple icon -->
+      <circle
+        cx="51"
+        cy="53"
+        r="11"
+        fill="none"
+        stroke="#8064C8"
+        stroke-width="2"
+      />
+
+      <path
+        d="M45 53h12M51 47v12"
+        stroke="#8064C8"
+        stroke-width="2"
+        stroke-linecap="round"
+      />
+
+      <!-- Value -->
+      <text
+        x="140"
+        y="91"
+        text-anchor="middle"
+        font-family="Arial, Helvetica, sans-serif"
+        font-size="38"
+        font-weight="700"
+        fill="#25213A"
+      >2024</text>
+
+      <!-- Label -->
+      <text
+        x="140"
+        y="119"
+        text-anchor="middle"
+        font-family="Arial, Helvetica, sans-serif"
+        font-size="12"
+        font-weight="700"
+        letter-spacing="1.4"
+        fill="#625A72"
+      >JOINED GITHUB</text>
+
+      <!-- Action -->
+      <text
+        x="140"
+        y="150"
+        text-anchor="middle"
+        font-family="Arial, Helvetica, sans-serif"
+        font-size="12"
+        fill="#8064C8"
+      >View profile →</text>
+    </g>
+  
+
+</svg>
