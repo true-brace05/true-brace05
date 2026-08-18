@@ -38,12 +38,12 @@ if (cells.length === 0) {
 console.log(`Found ${cells.length} contribution cells.`);
 
 const width = 1120;
-const height = 230;
+const height = 190;
 
-const left = 70;
-const top = 55;
+const left = 55;
+const top = 35;
 
-const cellSize = 13;
+const cellSize = 15;
 const gap = 4;
 const step = cellSize + gap;
 
@@ -96,7 +96,7 @@ svg.push(`
   width="${width}"
   height="${height}"
   rx="24"
-  fill="#FCFAFF"
+  fill="#FFFFFF"
 />
 
 <text
@@ -125,15 +125,7 @@ for (let weekIndex = 0; weekIndex < sortedWeeks.length; weekIndex++) {
 
   if (month !== previousMonth) {
     svg.push(`
-<text
-  x="${left + weekIndex * step}"
-  y="${top - 16}"
-  font-family="Arial, Helvetica, sans-serif"
-  font-size="11"
-  fill="#766D86"
->
-  ${month}
-</text>
+
 `);
 
     previousMonth = month;
