@@ -1,0 +1,9 @@
+{
+  "name": "profile-dashboard",
+  "private": true,
+  "type": "module",
+  "description": "Generates dashboard/dashboard.svg from live GitHub API data. No dependencies — Node 20+ has native fetch.",
+  "scripts": {
+    "generate": "node generate-dashboard.js"
+  }
+}
