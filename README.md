@@ -3,6 +3,15 @@
 <img
   src="assets/icons/profile-hero.svg"
   width="420"
+  alt="Profile Hero"
+/>
+
+</div>
+<div align="center">
+
+<img
+  src="assets/icons/profile-hero.svg"
+  width="420"
   alt="Astha Bansal — Chess & Machine Learning"
 />
 
