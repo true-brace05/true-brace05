@@ -1,39 +1,56 @@
-<table width="100%" cellspacing="0" cellpadding="0" border="0">
+<table>
 <tr>
 
-<td width="42%" align="center" valign="middle">
-
-<img
-  src="assets/icons/profile-hero.svg"
-  width="380"
-  alt="Astha Bansal"
->
-
-</td>
-
-<td width="58%" valign="middle">
+<td width="55%" valign="middle">
 
 <h1>ASTHA BANSAL</h1>
 
+<hr>
+
 <p>
-Third-year Computer Science student specializing in AI & Data Science, interested in systems, machine learning, and competitive programming. I enjoy building from first principles, solving challenging problems, and exploring how software works under the hood. Currently diving deeper into PyTorch, high-performance systems, and open source.
+Third-year Computer Science student specializing in AI & Data Science, 
+interested in systems, machine learning, and competitive programming. 
+I enjoy building from first principles, solving challenging problems, 
+and exploring how software works under the hood. Currently diving deeper 
+into PyTorch, high-performance systems, and open source.
 </p>
 
 <br>
 
-<div align="left">
-<a href="https://github.com/true-brace05"><img src="assets/icons/github.svg" width="36" height="36" alt="GitHub"></a>&nbsp;
-<a href="https://www.linkedin.com/in/astha-bansal05/"><img src="assets/icons/linkedin.svg" width="36" height="36" alt="LinkedIn"></a>&nbsp;
-<a href="https://codeforces.com/profile/Truebrace05"><img src="assets/icons/codeforces.svg" width="36" height="36" alt="Codeforces"></a>&nbsp;
-<a href="https://huggingface.co/divisivefallacy"><img src="assets/icons/huggingface.svg" width="36" height="36" alt="Hugging Face"></a>&nbsp;
-<a href="mailto:asthabansal1705@gmail.com"><img src="assets/icons/gmail.svg" width="36" height="36" alt="Email"></a>
-</div>
+<a href="https://github.com/true-brace05">
+<img src="assets/icons/github.svg" width="40" height="40" alt="GitHub">
+</a>&nbsp;&nbsp;
+
+<a href="https://www.linkedin.com/in/astha-bansal05/">
+<img src="assets/icons/linkedin.svg" width="40" height="40" alt="LinkedIn">
+</a>&nbsp;&nbsp;
+
+<a href="https://codeforces.com/profile/Truebrace05">
+<img src="assets/icons/codeforces.svg" width="40" height="40" alt="Codeforces">
+</a>&nbsp;&nbsp;
+
+<a href="https://huggingface.co/divisivefallacy">
+<img src="assets/icons/huggingface.svg" width="40" height="40" alt="Hugging Face">
+</a>&nbsp;&nbsp;
+
+<a href="mailto:asthabansal1705@gmail.com">
+<img src="assets/icons/gmail.svg" width="40" height="40" alt="Email">
+</a>
+
+</td>
+
+<td width="45%" align="center" valign="middle">
+
+<img
+  src="assets/icons/profile-scanner.gif"
+  width="380"
+  alt="Live Profile Scanner"
+/>
 
 </td>
 
 </tr>
 </table>
-
 
 ## GITHUB
 
@@ -148,52 +165,65 @@ Third-year Computer Science student specializing in AI & Data Science, intereste
 
 ## TECH STACK
 
-<div align="center">
+<table border="0" width="100%" cellpadding="0" cellspacing="0">
+<tr>
+<td align="left">
 
-<img src="assets/icons/section-tech.svg" width="40" height="40" alt="Tech Stack">
+<img
+  src="./assets/icons/section-tech.svg"
+  width="32"
+  alt="Tech Stack"
+/>
+&nbsp;&nbsp;
+<strong>TECH STACK</strong>
 
 <br><br>
 
-<b>LANGUAGES</b>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<b>DATA &amp; ML</b>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<b>TOOLS &amp; TECHNOLOGIES</b>
+<strong>LANGUAGES</strong>
+
+<br>
+
+<img src="./assets/icons/cpp.svg" width="48" alt="C++">
+&nbsp;&nbsp;&nbsp;
+<img src="./assets/icons/python.svg" width="48" alt="Python">
+&nbsp;&nbsp;&nbsp;
+<img src="./assets/icons/c.svg" width="48" alt="C">
+&nbsp;&nbsp;&nbsp;
+<img src="./assets/icons/cuda.svg" width="48" alt="CUDA">
 
 <br><br>
 
-<img src="assets/icons/cpp.svg" width="38" height="38" alt="C++">
-&nbsp;&nbsp;
-<img src="assets/icons/python.svg" width="38" height="38" alt="Python">
-&nbsp;&nbsp;
-<img src="assets/icons/c.svg" width="38" height="38" alt="C">
-&nbsp;&nbsp;
-<img src="assets/icons/cuda.svg" width="38" height="38" alt="CUDA">
+<strong>TOOLS &amp; TECHNOLOGIES</strong>
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<br>
 
-<img src="assets/icons/numpy.svg" width="38" height="38" alt="NumPy">
-&nbsp;&nbsp;
-<img src="assets/icons/pandas.svg" width="38" height="38" alt="Pandas">
-&nbsp;&nbsp;
-<img src="assets/icons/matplotlib.svg" width="38" height="38" alt="Matplotlib">
-&nbsp;&nbsp;
-<img src="assets/icons/pytorch.svg" width="38" height="38" alt="PyTorch">
+<img src="./assets/icons/git.svg" width="48" alt="Git">
+&nbsp;&nbsp;&nbsp;
+<img src="./assets/icons/linux.svg" width="48" alt="Linux">
+&nbsp;&nbsp;&nbsp;
+<img src="./assets/icons/cmake.svg" width="48" alt="CMake">
+&nbsp;&nbsp;&nbsp;
+<img src="./assets/icons/mysql.svg" width="48" alt="MySQL">
+&nbsp;&nbsp;&nbsp;
+<img src="./assets/icons/vscode.svg" width="48" alt="VS Code">
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<br><br>
 
-<img src="assets/icons/git.svg" width="38" height="38" alt="Git">
-&nbsp;&nbsp;
-<img src="assets/icons/linux.svg" width="38" height="38" alt="Linux">
-&nbsp;&nbsp;
-<img src="assets/icons/cmake.svg" width="38" height="38" alt="CMake">
-&nbsp;&nbsp;
-<img src="assets/icons/mysql.svg" width="38" height="38" alt="MySQL">
-&nbsp;&nbsp;
-<img src="assets/icons/vscode.svg" width="38" height="38" alt="VS Code">
+<strong>DATA &amp; ML</strong>
 
-</div>
+<br>
 
+<img src="./assets/icons/numpy.svg" width="48" alt="NumPy">
+&nbsp;&nbsp;&nbsp;
+<img src="./assets/icons/pandas.svg" width="48" alt="Pandas">
+&nbsp;&nbsp;&nbsp;
+<img src="./assets/icons/matplotlib.svg" width="48" alt="Matplotlib">
+&nbsp;&nbsp;&nbsp;
+<img src="./assets/icons/pytorch.svg" width="48" alt="PyTorch">
+
+</td>
+</tr>
+</table>
 
 ## OPEN SOURCE JOURNEY
 
