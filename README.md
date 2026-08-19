@@ -1,4 +1,4 @@
-<table border="0" width="100%" cellspacing="0" cellpadding="0">
+<table width="100%" cellspacing="0" cellpadding="0" border="0">
 <tr>
 
 <td width="42%" align="center" valign="middle">
@@ -7,7 +7,7 @@
   src="assets/icons/profile-hero.svg"
   width="380"
   alt="Astha Bansal"
-/>
+>
 
 </td>
 
@@ -15,63 +15,24 @@
 
 <h1>ASTHA BANSAL</h1>
 
-<h3>Computer Science · AI & Data Science</h3>
-
 <p>
-Building systems, exploring machine learning,
-competitive programming, and open source.
+Third-year Computer Science student specializing in AI & Data Science, interested in systems, machine learning, and competitive programming. I enjoy building from first principles, solving challenging problems, and exploring how software works under the hood. Currently diving deeper into PyTorch, high-performance systems, and open source.
 </p>
 
-<p>
-<b>JECRC University</b><br>
-B.Tech CSE · AI & Data Science · 2024–2028
-</p>
+<br>
 
-<p>
-📍 Jaipur, India
-</p>
-
-<p>
-<a href="https://github.com/true-brace05">GitHub</a>
-&nbsp;·&nbsp;
-<a href="https://www.linkedin.com/in/astha-bansal05/">LinkedIn</a>
-&nbsp;·&nbsp;
-<a href="https://codeforces.com/profile/Truebrace05">Codeforces</a>
-&nbsp;·&nbsp;
-<a href="https://huggingface.co/divisivefallacy">Hugging Face</a>
-&nbsp;·&nbsp;
-<a href="mailto:asthabansal1705@gmail.com">Email</a>
-</p>
+<div align="left">
+<a href="https://github.com/true-brace05"><img src="assets/icons/github.svg" width="36" height="36" alt="GitHub"></a>&nbsp;
+<a href="https://www.linkedin.com/in/astha-bansal05/"><img src="assets/icons/linkedin.svg" width="36" height="36" alt="LinkedIn"></a>&nbsp;
+<a href="https://codeforces.com/profile/Truebrace05"><img src="assets/icons/codeforces.svg" width="36" height="36" alt="Codeforces"></a>&nbsp;
+<a href="https://huggingface.co/divisivefallacy"><img src="assets/icons/huggingface.svg" width="36" height="36" alt="Hugging Face"></a>&nbsp;
+<a href="mailto:asthabansal1705@gmail.com"><img src="assets/icons/gmail.svg" width="36" height="36" alt="Email"></a>
+</div>
 
 </td>
 
 </tr>
 </table>
-
-# ASTHA BANSAL
-
-### Computer Science · AI & Data Science
-
-**JECRC University · Jaipur · B.Tech CSE · 2024–2028**
-
-Computer Science student exploring systems, machine learning,
-competitive programming, and open source.
-
-<br>
-
-<a href="https://github.com/true-brace05">GitHub</a>
-&nbsp;&nbsp;·&nbsp;&nbsp;
-<a href="https://www.linkedin.com/in/astha-bansal05/">LinkedIn</a>
-&nbsp;&nbsp;·&nbsp;&nbsp;
-<a href="https://codeforces.com/profile/Truebrace05">Codeforces</a>
-&nbsp;&nbsp;·&nbsp;&nbsp;
-<a href="https://huggingface.co/divisivefallacy">Hugging Face</a>
-&nbsp;&nbsp;·&nbsp;&nbsp;
-<a href="asthabansal1705@gmail.com">Email</a>
-
-</div>
-
-<br>
 
 
 ## GITHUB
