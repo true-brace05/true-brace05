@@ -144,80 +144,84 @@ into PyTorch, high-performance systems, and open source.
 
 
 
-## TECH STACK
-
-<table border="1" cellspacing="0" cellpadding="20" width="100%">
-<tr><td>
-<img src="./assets/icons/section-tech.svg" width="28" valign="middle" alt="Tech Stack">&nbsp;&nbsp;<strong>TECH STACK</strong>
-<br><br>
-<strong>LANGUAGES</strong>
-<br><br>
-<table border="0" cellspacing="0" cellpadding="0">
-<tr>
-<td align="center" width="80"><img src="./assets/icons/cpp.svg" width="42"></td>
-<td align="center" width="80"><img src="./assets/icons/python.svg" width="42"></td>
-<td align="center" width="80"><img src="./assets/icons/c.svg" width="42"></td>
-<td align="center" width="80"><img src="./assets/icons/cuda.svg" width="42"></td>
-</tr>
-</table>
-<br><br>
-<strong>TOOLS &amp; TECHNOLOGIES</strong>
-<br><br>
-<table border="0" cellspacing="0" cellpadding="0">
-<tr>
-<td align="center" width="80"><img src="./assets/icons/git.svg" width="42"></td>
-<td align="center" width="80"><img src="./assets/icons/linux.svg" width="42"></td>
-<td align="center" width="80"><img src="./assets/icons/cmake.svg" width="42"></td>
-<td align="center" width="80"><img src="./assets/icons/mysql.svg" width="42"></td>
-<td align="center" width="80"><img src="./assets/icons/vscode.svg" width="42"></td>
-</tr>
-</table>
-<br><br>
-<strong>DATA &amp; ML</strong>
-<br><br>
-<table border="0" cellspacing="0" cellpadding="0">
-<tr>
-<td align="center" width="80"><img src="./assets/icons/numpy.svg" width="42"></td>
-<td align="center" width="80"><img src="./assets/icons/pandas.svg" width="42"></td>
-<td align="center" width="80"><img src="./assets/icons/matplotlib.svg" width="42"></td>
-<td align="center" width="80"><img src="./assets/icons/pytorch.svg" width="42"></td>
-</tr>
-</table>
-</td></tr>
-</table>
-
-## OPEN SOURCE JOURNEY
-
-<div align="center">
-
-<table>
+<table border="0" cellspacing="0" cellpadding="0" width="100%">
 <tr>
 
-<td width="18%" align="center" valign="middle">
+<td width="50%" valign="top">
+
+<h3>TECH STACK</h3>
+
+<b>LANGUAGES</b><br>
+
+<img src="assets/icons/cpp.svg" width="38" height="38" alt="C++">
+&nbsp;&nbsp;
+<img src="assets/icons/python.svg" width="38" height="38" alt="Python">
+&nbsp;&nbsp;
+<img src="assets/icons/c.svg" width="38" height="38" alt="C">
+&nbsp;&nbsp;
+<img src="assets/icons/cuda.svg" width="38" height="38" alt="CUDA">
+
+<br><br>
+
+<b>TOOLS & TECHNOLOGIES</b><br>
+
+<img src="assets/icons/git.svg" width="38" height="38" alt="Git">
+&nbsp;&nbsp;
+<img src="assets/icons/linux.svg" width="38" height="38" alt="Linux">
+&nbsp;&nbsp;
+<img src="assets/icons/cmake.svg" width="38" height="38" alt="CMake">
+&nbsp;&nbsp;
+<img src="assets/icons/mysql.svg" width="38" height="38" alt="MySQL">
+&nbsp;&nbsp;
+<img src="assets/icons/vscode.svg" width="38" height="38" alt="VS Code">
+
+<br><br>
+
+<b>DATA & ML</b><br>
+
+<img src="assets/icons/numpy.svg" width="38" height="38" alt="NumPy">
+&nbsp;&nbsp;
+<img src="assets/icons/pandas.svg" width="38" height="38" alt="Pandas">
+&nbsp;&nbsp;
+<img src="assets/icons/matplotlib.svg" width="38" height="38" alt="Matplotlib">
+&nbsp;&nbsp;
+<img src="assets/icons/pytorch.svg" width="38" height="38" alt="PyTorch">
+
+</td>
+
+
+<td width="50%" valign="top">
+
+<h3>OPEN SOURCE JOURNEY</h3>
+
+<table border="0" cellspacing="0" cellpadding="0" width="100%">
+<tr>
+
+<td width="20%" valign="middle" align="center">
 
 <img
   src="assets/icons/section-open-source.svg"
-  width="56"
-  height="56"
+  width="42"
+  height="42"
   alt="Open Source"
 />
 
 </td>
 
-<td width="82%" align="left" valign="middle">
+<td width="80%" valign="middle">
 
-<h3>Learning by contributing</h3>
+<b>Learning by contributing</b><br>
 
 Learning how to work with real-world codebases — starting with issues
 I can understand end-to-end, learning from maintainers, and gradually
 taking on larger contributions.
 
-<br>
+<br><br>
 
 <img
   src="assets/icons/github.svg"
-  width="22"
-  height="22"
+  width="34"
+  height="34"
   alt="GitHub"
 />
 
@@ -226,7 +230,10 @@ taking on larger contributions.
 </tr>
 </table>
 
-</div>
+</td>
+
+</tr>
+</table>
 
 ## LET'S CONNECT
 
