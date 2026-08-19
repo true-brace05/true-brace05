@@ -174,21 +174,21 @@ competitive programming, and open source.
 
 <img src="assets/icons/cpp.svg" width="24" height="24" alt="C++">
 &nbsp;
-<b>C++</b>
+<b>C++</br>
 
-<br><br>
+<br>
 
 <img src="assets/icons/python.svg" width="24" height="24" alt="Python">
 &nbsp;
 <b>Python</b>
 
-<br><br>
+<br>
 
 <img src="assets/icons/c.svg" width="24" height="24" alt="C">
 &nbsp;
 <b>C</b>
 
-<br><br>
+<br>
 
 <img src="assets/icons/cuda.svg" width="24" height="24" alt="CUDA">
 &nbsp;
@@ -208,25 +208,25 @@ competitive programming, and open source.
 &nbsp;
 <b>Git</b>
 
-<br><br>
+<br>
 
 <img src="assets/icons/linux.svg" width="24" height="24" alt="Linux">
 &nbsp;
 <b>Linux</b>
 
-<br><br>
+<br>
 
 <img src="assets/icons/cmake.svg" width="24" height="24" alt="CMake">
 &nbsp;
 <b>CMake</b>
 
-<br><br>
+<br>
 
 <img src="assets/icons/mysql.svg" width="24" height="24" alt="MySQL">
 &nbsp;
 <b>MySQL</b>
 
-<br><br>
+<br>
 
 <img src="assets/icons/vscode.svg" width="24" height="24" alt="VS Code">
 &nbsp;
@@ -246,7 +246,7 @@ competitive programming, and open source.
 &nbsp;
 <b>PyTorch</b>
 
-<br><br>
+<br>
 
 <img src="assets/icons/github.svg" width="24" height="24" alt="Open Source">
 &nbsp;
@@ -302,7 +302,7 @@ Learning how to work with real-world codebases — starting with issues
 I can understand end-to-end, learning from maintainers, and gradually
 taking on larger contributions.
 
-<br><br>
+<br>
 
 <img
   src="assets/icons/github.svg"
