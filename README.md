@@ -144,147 +144,95 @@ into PyTorch, high-performance systems, and open source.
 
 
 
-<table border="0" width="100%" cellspacing="0" cellpadding="0">
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
 <tr>
-
-<!-- ================= TECH STACK ================= -->
 
 <td width="50%" valign="top">
 
-<h3>TECH STACK</h3>
+<p>
+<img src="assets/icons/tech-stack.svg" width="28" height="28" alt="Tech Stack"/>
+&nbsp;&nbsp;
+<strong>TECH STACK</strong>
+</p>
 
-<b>LANGUAGES</b><br>
+### LANGUAGES
 
-<img src="assets/icons/cpp.svg" width="34" alt="C++">
-&nbsp;&nbsp;
-<img src="assets/icons/python.svg" width="34" alt="Python">
-&nbsp;&nbsp;
-<img src="assets/icons/c.svg" width="34" alt="C">
-&nbsp;&nbsp;
-<img src="assets/icons/cuda.svg" width="34" alt="CUDA">
+<p>
+<img src="assets/icons/cpp.svg" width="52" height="52" alt="C++"/>
+&nbsp;&nbsp;&nbsp;
+<img src="assets/icons/python.svg" width="52" height="52" alt="Python"/>
+&nbsp;&nbsp;&nbsp;
+<img src="assets/icons/c.svg" width="52" height="52" alt="C"/>
+&nbsp;&nbsp;&nbsp;
+<img src="assets/icons/cuda.svg" width="52" height="52" alt="CUDA"/>
+</p>
 
-<br><br>
+---
 
-<b>TOOLS & TECHNOLOGIES</b><br>
+### TOOLS & TECHNOLOGIES
 
-<img src="assets/icons/git.svg" width="34" alt="Git">
-&nbsp;&nbsp;
-<img src="assets/icons/linux.svg" width="34" alt="Linux">
-&nbsp;&nbsp;
-<img src="assets/icons/cmake.svg" width="34" alt="CMake">
-&nbsp;&nbsp;
-<img src="assets/icons/mysql.svg" width="34" alt="MySQL">
-&nbsp;&nbsp;
-<img src="assets/icons/vscode.svg" width="34" alt="VS Code">
+<p>
+<img src="assets/icons/git.svg" width="52" height="52" alt="Git"/>
+&nbsp;&nbsp;&nbsp;
+<img src="assets/icons/linux.svg" width="52" height="52" alt="Linux"/>
+&nbsp;&nbsp;&nbsp;
+<img src="assets/icons/cmake.svg" width="52" height="52" alt="CMake"/>
+&nbsp;&nbsp;&nbsp;
+<img src="assets/icons/mysql.svg" width="52" height="52" alt="MySQL"/>
+&nbsp;&nbsp;&nbsp;
+<img src="assets/icons/vscode.svg" width="52" height="52" alt="VS Code"/>
+</p>
 
-<br><br>
+---
 
-<b>DATA & ML</b><br>
+### DATA & ML
 
-<img src="assets/icons/numpy.svg" width="34" alt="NumPy">
-&nbsp;&nbsp;
-<img src="assets/icons/pandas.svg" width="34" alt="Pandas">
-&nbsp;&nbsp;
-<img src="assets/icons/matplotlib.svg" width="34" alt="Matplotlib">
-&nbsp;&nbsp;
-<img src="assets/icons/pytorch.svg" width="34" alt="PyTorch">
+<p>
+<img src="assets/icons/numpy.svg" width="52" height="52" alt="NumPy"/>
+&nbsp;&nbsp;&nbsp;
+<img src="assets/icons/pandas.svg" width="52" height="52" alt="Pandas"/>
+&nbsp;&nbsp;&nbsp;
+<img src="assets/icons/matplotlib.svg" width="52" height="52" alt="Matplotlib"/>
+&nbsp;&nbsp;&nbsp;
+<img src="assets/icons/pytorch.svg" width="52" height="52" alt="PyTorch"/>
+</p>
 
 </td>
-
-
-<!-- ================= OPEN SOURCE ================= -->
 
 <td width="50%" valign="top">
 
-<h3>OPEN SOURCE JOURNEY</h3>
+<p>
+<img src="assets/icons/open-source.svg" width="28" height="28" alt="Open Source"/>
+&nbsp;&nbsp;
+<strong>OPEN SOURCE</strong>
+</p>
 
-<table border="0" width="100%" cellspacing="0" cellpadding="0">
+### GITHUB CONTRIBUTIONS
 
-<tr>
-
-<td width="22%" align="center" valign="middle">
-
+<p align="center">
 <img
-  src="assets/icons/section-open-source.svg"
-  width="46"
-  alt="Open Source"
+  src="assets/contribution-graph.svg"
+  width="95%"
+  alt="GitHub contribution activity"
 />
+</p>
 
-</td>
+<br>
 
-<td width="78%" valign="middle">
+<p align="center">
 
-<b>Explore</b><br>
-Finding projects I can understand and contribute to.
+<strong>❝ Always learning. Always building. ❞</strong>
 
-</td>
-
-</tr>
-
-<tr>
-
-<td align="center" valign="middle">
-
-<img
-  src="assets/icons/target.svg"
-  width="38"
-  alt="Explore"
-/>
-
-</td>
-
-<td valign="middle">
-
-<b>Understand</b><br>
-Reading code, issues, and project context.
-
-</td>
-
-</tr>
-
-<tr>
-
-<td align="center" valign="middle">
+<br><br>
 
 <img
   src="assets/icons/github.svg"
-  width="38"
-  alt="Contribute"
+  width="52"
+  height="52"
+  alt="GitHub"
 />
 
-</td>
-
-<td valign="middle">
-
-<b>Contribute</b><br>
-Fixing issues and gradually taking on larger contributions.
-
-</td>
-
-</tr>
-
-<tr>
-
-<td align="center" valign="middle">
-
-<img
-  src="assets/icons/section-connect.svg"
-  width="38"
-  alt="Impact"
-/>
-
-</td>
-
-<td valign="middle">
-
-<b>Impact</b><br>
-Learning from maintainers and contributing back to the community.
-
-</td>
-
-</tr>
-
-</table>
+</p>
 
 </td>
 
