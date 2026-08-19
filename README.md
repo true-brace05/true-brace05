@@ -144,8 +144,10 @@ into PyTorch, high-performance systems, and open source.
 
 
 
-<table border="0" cellspacing="0" cellpadding="0" width="100%">
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
 <tr>
+
+<!-- ================= TECH STACK ================= -->
 
 <td width="50%" valign="top">
 
@@ -153,81 +155,135 @@ into PyTorch, high-performance systems, and open source.
 
 <b>LANGUAGES</b><br>
 
-<img src="assets/icons/cpp.svg" width="38" height="38" alt="C++">
+<img src="assets/icons/cpp.svg" width="34" alt="C++">
 &nbsp;&nbsp;
-<img src="assets/icons/python.svg" width="38" height="38" alt="Python">
+<img src="assets/icons/python.svg" width="34" alt="Python">
 &nbsp;&nbsp;
-<img src="assets/icons/c.svg" width="38" height="38" alt="C">
+<img src="assets/icons/c.svg" width="34" alt="C">
 &nbsp;&nbsp;
-<img src="assets/icons/cuda.svg" width="38" height="38" alt="CUDA">
+<img src="assets/icons/cuda.svg" width="34" alt="CUDA">
 
 <br><br>
 
 <b>TOOLS & TECHNOLOGIES</b><br>
 
-<img src="assets/icons/git.svg" width="38" height="38" alt="Git">
+<img src="assets/icons/git.svg" width="34" alt="Git">
 &nbsp;&nbsp;
-<img src="assets/icons/linux.svg" width="38" height="38" alt="Linux">
+<img src="assets/icons/linux.svg" width="34" alt="Linux">
 &nbsp;&nbsp;
-<img src="assets/icons/cmake.svg" width="38" height="38" alt="CMake">
+<img src="assets/icons/cmake.svg" width="34" alt="CMake">
 &nbsp;&nbsp;
-<img src="assets/icons/mysql.svg" width="38" height="38" alt="MySQL">
+<img src="assets/icons/mysql.svg" width="34" alt="MySQL">
 &nbsp;&nbsp;
-<img src="assets/icons/vscode.svg" width="38" height="38" alt="VS Code">
+<img src="assets/icons/vscode.svg" width="34" alt="VS Code">
 
 <br><br>
 
 <b>DATA & ML</b><br>
 
-<img src="assets/icons/numpy.svg" width="38" height="38" alt="NumPy">
+<img src="assets/icons/numpy.svg" width="34" alt="NumPy">
 &nbsp;&nbsp;
-<img src="assets/icons/pandas.svg" width="38" height="38" alt="Pandas">
+<img src="assets/icons/pandas.svg" width="34" alt="Pandas">
 &nbsp;&nbsp;
-<img src="assets/icons/matplotlib.svg" width="38" height="38" alt="Matplotlib">
+<img src="assets/icons/matplotlib.svg" width="34" alt="Matplotlib">
 &nbsp;&nbsp;
-<img src="assets/icons/pytorch.svg" width="38" height="38" alt="PyTorch">
+<img src="assets/icons/pytorch.svg" width="34" alt="PyTorch">
 
 </td>
 
+
+<!-- ================= OPEN SOURCE ================= -->
 
 <td width="50%" valign="top">
 
 <h3>OPEN SOURCE JOURNEY</h3>
 
-<table border="0" cellspacing="0" cellpadding="0" width="100%">
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+
 <tr>
 
-<td width="20%" valign="middle" align="center">
+<td width="22%" align="center" valign="middle">
 
 <img
   src="assets/icons/section-open-source.svg"
-  width="42"
-  height="42"
+  width="46"
   alt="Open Source"
 />
 
 </td>
 
-<td width="80%" valign="middle">
+<td width="78%" valign="middle">
 
-<b>Learning by contributing</b><br>
-
-Learning how to work with real-world codebases — starting with issues
-I can understand end-to-end, learning from maintainers, and gradually
-taking on larger contributions.
-
-<br><br>
-
-<img
-  src="assets/icons/github.svg"
-  width="34"
-  height="34"
-  alt="GitHub"
-/>
+<b>Explore</b><br>
+Finding projects I can understand and contribute to.
 
 </td>
 
 </tr>
+
+<tr>
+
+<td align="center" valign="middle">
+
+<img
+  src="assets/icons/target.svg"
+  width="38"
+  alt="Explore"
+/>
+
+</td>
+
+<td valign="middle">
+
+<b>Understand</b><br>
+Reading code, issues, and project context.
+
+</td>
+
+</tr>
+
+<tr>
+
+<td align="center" valign="middle">
+
+<img
+  src="assets/icons/github.svg"
+  width="38"
+  alt="Contribute"
+/>
+
+</td>
+
+<td valign="middle">
+
+<b>Contribute</b><br>
+Fixing issues and gradually taking on larger contributions.
+
+</td>
+
+</tr>
+
+<tr>
+
+<td align="center" valign="middle">
+
+<img
+  src="assets/icons/section-connect.svg"
+  width="38"
+  alt="Impact"
+/>
+
+</td>
+
+<td valign="middle">
+
+<b>Impact</b><br>
+Learning from maintainers and contributing back to the community.
+
+</td>
+
+</tr>
+
 </table>
 
 </td>
