@@ -40,7 +40,6 @@ competitive programming, and open source.
 
 <br>
 
----
 
 ## GITHUB
 
@@ -93,9 +92,6 @@ competitive programming, and open source.
 </table>
 
 </div>
-
----
-
 
 
 ## FEATURED PROJECTS
@@ -154,7 +150,6 @@ competitive programming, and open source.
 
 </div>
 
---- 
 
 
 ## TECH STACK
@@ -278,8 +273,6 @@ competitive programming, and open source.
 
 </div>
 
----
-
 ## GITHUB ACTIVITY
 
 
@@ -293,7 +286,6 @@ competitive programming, and open source.
 
 </div>
 
----
 
 ## OPEN SOURCE JOURNEY
 
@@ -336,18 +328,17 @@ taking on larger contributions.
 </table>
 
 </div>
----
 
 ## LET'S CONNECT
 
 <div align="center">
-<a href="https://github.com/true-brace05"><img src="assets/icons/github.svg" width="44" height="44" alt="GitHub"></a>
+<a href="https://github.com/true-brace05"><img src="assets/icons/github.svg" width="36" height="36" alt="GitHub"></a>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<a href="https://www.linkedin.com/in/astha-bansal05/"><img src="assets/icons/linkedin.svg" width="44" height="44" alt="LinkedIn"></a>
+<a href="https://www.linkedin.com/in/astha-bansal05/"><img src="assets/icons/linkedin.svg" width="36" height="36" alt="LinkedIn"></a>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<a href="https://codeforces.com/profile/Truebrace05"><img src="assets/icons/codeforces.svg" width="44" height="44" alt="Codeforces"></a>
+<a href="https://codeforces.com/profile/Truebrace05"><img src="assets/icons/codeforces.svg" width="36" height="36" alt="Codeforces"></a>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<a href="https://huggingface.co/divisivefallacy"><img src="assets/icons/huggingface.svg" width="44" height="44" alt="Hugging Face"></a>
+<a href="https://huggingface.co/divisivefallacy"><img src="assets/icons/huggingface.svg" width="36" height="36" alt="Hugging Face"></a>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<a href="mailto:asthabansal1705@gmail.com"><img src="assets/icons/gmail.svg" width="44" height="44" alt="Email"></a>
+<a href="mailto:asthabansal1705@gmail.com"><img src="assets/icons/gmail.svg" width="36" height="36" alt="Email"></a>
 </div>
