@@ -1,19 +1,22 @@
 <div align="center">
 
-<picture>
-  <source
-    media="(prefers-color-scheme: dark)"
-    srcset="assets/banner-dark.png">
-  <source
-    media="(prefers-color-scheme: light)"
-    srcset="assets/banner-light.png">
-  <img
-    src="assets/banner-light.png"
-    width="100%"
-    alt="Astha Bansal profile banner">
-</picture>
+<img
+  src="assets/icons/profile-hero.svg"
+  width="420"
+  alt="Astha Bansal — Chess & Machine Learning"
+/>
 
-<br>
+<h1>ASTHA BANSAL</h1>
+
+<h3>Computer Science · AI & Data Science</h3>
+
+<p>
+  Building systems, exploring machine learning,<br>
+  solving problems, and contributing to open source.
+</p>
+
+</div>
+
 
 # ASTHA BANSAL
 
@@ -156,133 +159,47 @@ competitive programming, and open source.
 
 <div align="center">
 
-<table>
-<tr>
+<img src="assets/icons/section-tech.svg" width="40" height="40" alt="Tech Stack">
 
-<td width="33%" valign="top" align="center">
+<br><br>
 
-<img src="assets/icons/languages.svg" width="42" height="42" alt="Languages">
+<b>LANGUAGES</b>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<b>DATA &amp; ML</b>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<b>TOOLS &amp; TECHNOLOGIES</b>
 
-<h3>Languages</h3>
+<br><br>
 
-<table align="center">
-<tr>
-<td width="38" align="center">
-<img src="assets/icons/cpp.svg" width="24" height="24" alt="C++">
-</td>
-<td align="left"><b>C++</b></td>
-</tr>
+<img src="assets/icons/cpp.svg" width="38" height="38" alt="C++">
+&nbsp;&nbsp;
+<img src="assets/icons/python.svg" width="38" height="38" alt="Python">
+&nbsp;&nbsp;
+<img src="assets/icons/c.svg" width="38" height="38" alt="C">
+&nbsp;&nbsp;
+<img src="assets/icons/cuda.svg" width="38" height="38" alt="CUDA">
 
-<tr>
-<td align="center">
-<img src="assets/icons/python.svg" width="24" height="24" alt="Python">
-</td>
-<td align="left"><b>Python</b></td>
-</tr>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
-<tr>
-<td align="center">
-<img src="assets/icons/c.svg" width="24" height="24" alt="C">
-</td>
-<td align="left"><b>C</b></td>
-</tr>
+<img src="assets/icons/numpy.svg" width="38" height="38" alt="NumPy">
+&nbsp;&nbsp;
+<img src="assets/icons/pandas.svg" width="38" height="38" alt="Pandas">
+&nbsp;&nbsp;
+<img src="assets/icons/matplotlib.svg" width="38" height="38" alt="Matplotlib">
+&nbsp;&nbsp;
+<img src="assets/icons/pytorch.svg" width="38" height="38" alt="PyTorch">
 
-<tr>
-<td align="center">
-<img src="assets/icons/cuda.svg" width="24" height="24" alt="CUDA">
-</td>
-<td align="left"><b>CUDA</b></td>
-</tr>
-</table>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
-</td>
-
-
-<td width="33%" valign="top" align="center">
-
-<img src="assets/icons/tools.svg" width="42" height="42" alt="Tools">
-
-<h3>Tools &amp; Technologies</h3>
-
-<table align="center">
-<tr>
-<td width="38" align="center">
-<img src="assets/icons/git.svg" width="24" height="24" alt="Git">
-</td>
-<td align="left"><b>Git</b></td>
-</tr>
-
-<tr>
-<td align="center">
-<img src="assets/icons/linux.svg" width="24" height="24" alt="Linux">
-</td>
-<td align="left"><b>Linux</b></td>
-</tr>
-
-<tr>
-<td align="center">
-<img src="assets/icons/cmake.svg" width="24" height="24" alt="CMake">
-</td>
-<td align="left"><b>CMake</b></td>
-</tr>
-
-<tr>
-<td align="center">
-<img src="assets/icons/mysql.svg" width="24" height="24" alt="MySQL">
-</td>
-<td align="left"><b>MySQL</b></td>
-</tr>
-
-<tr>
-<td align="center">
-<img src="assets/icons/vscode.svg" width="24" height="24" alt="VS Code">
-</td>
-<td align="left"><b>VS Code</b></td>
-</tr>
-</table>
-
-</td>
-
-
-<td width="33%" valign="top" align="center">
-
-<img src="assets/icons/target.svg" width="42" height="42" alt="Currently Learning">
-
-<h3>Currently Learning</h3>
-
-<table align="center">
-<tr>
-<td width="38" align="center">
-<img src="assets/icons/pytorch.svg" width="24" height="24" alt="PyTorch">
-</td>
-<td align="left"><b>PyTorch</b></td>
-</tr>
-
-<tr>
-<td align="center">
-<img src="assets/icons/github.svg" width="24" height="24" alt="Open Source">
-</td>
-<td align="left"><b>Open Source<br>Development</b></td>
-</tr>
-</table>
-
-</td>
-
-</tr>
-</table>
-
-</div>
-
-## GITHUB ACTIVITY
-
-
-<div align="center">
-
-<img
-  src="assets/contribution-graph.svg"
-  width="100%"
-  alt="GitHub contribution activity"
-/>
+<img src="assets/icons/git.svg" width="38" height="38" alt="Git">
+&nbsp;&nbsp;
+<img src="assets/icons/linux.svg" width="38" height="38" alt="Linux">
+&nbsp;&nbsp;
+<img src="assets/icons/cmake.svg" width="38" height="38" alt="CMake">
+&nbsp;&nbsp;
+<img src="assets/icons/mysql.svg" width="38" height="38" alt="MySQL">
+&nbsp;&nbsp;
+<img src="assets/icons/vscode.svg" width="38" height="38" alt="VS Code">
 
 </div>
 
