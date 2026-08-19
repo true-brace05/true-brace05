@@ -342,67 +342,57 @@ taking on larger contributions.
 
 <div align="center">
 
-<img
-  src="assets/icons/section-connect.svg"
-  width="42"
-  height="42"
-  alt="Let's Connect"
-/>
-
-<br><br>
-
 <a href="https://github.com/true-brace05">
   <img
     src="assets/icons/github.svg"
-    width="42"
-    height="42"
+    width="44"
+    height="44"
     alt="GitHub"
   />
 </a>
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
 <a href="https://www.linkedin.com/in/astha-bansal05/">
   <img
     src="assets/icons/linkedin.svg"
-    width="42"
-    height="42"
+    width="44"
+    height="44"
     alt="LinkedIn"
   />
 </a>
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
 <a href="https://codeforces.com/profile/Truebrace05">
   <img
     src="assets/icons/codeforces.svg"
-    width="42"
-    height="42"
+    width="44"
+    height="44"
     alt="Codeforces"
   />
 </a>
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
 <a href="https://huggingface.co/divisivefallacy">
   <img
     src="assets/icons/huggingface.svg"
-    width="42"
-    height="42"
+    width="44"
+    height="44"
     alt="Hugging Face"
   />
 </a>
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
-<a href="asthabansal1705@gmail.com">
+<a href="mailto:asthabansal1705@gmail.com">
   <img
     src="assets/icons/gmail.svg"
-    width="42"
-    height="42"
+    width="44"
+    height="44"
     alt="Email"
   />
 </a>
-
 
 </div>
