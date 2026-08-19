@@ -1,11 +1,11 @@
 <table border="0" cellspacing="0" cellpadding="0">
 <tr>
-
 <td width="52%" valign="middle">
 
 <h1>ASTHA BANSAL</h1>
 
-<hr>
+<img src="assets/icons/divider.png" width="100%" height="3" alt="">
+<br><br>
 
 <p>
 Third-year Computer Science student specializing in AI & Data Science,
@@ -17,28 +17,19 @@ into PyTorch, high-performance systems, and open source.
 
 <br>
 
-<a href="https://github.com/true-brace05"><img src="assets/icons/github.svg" width="40" height="40" alt="GitHub"></a>
-&nbsp;
-<a href="https://www.linkedin.com/in/astha-bansal05/"><img src="assets/icons/linkedin.svg" width="40" height="40" alt="LinkedIn"></a>
-&nbsp;
-<a href="https://codeforces.com/profile/Truebrace05"><img src="assets/icons/codeforces.svg" width="40" height="40" alt="Codeforces"></a>
-&nbsp;
-<a href="https://huggingface.co/divisivefallacy"><img src="assets/icons/huggingface.svg" width="40" height="40" alt="Hugging Face"></a>
-&nbsp;
-<a href="mailto:asthabansal1705@gmail.com"><img src="assets/icons/gmail.svg" width="40" height="40" alt="Email"></a>
+<a href="https://github.com/true-brace05"><img src="assets/icons/github-purple.svg" width="36" height="36"></a>&nbsp;
+<a href="https://www.linkedin.com/in/astha-bansal05/"><img src="assets/icons/linkedin-purple.svg" width="36" height="36"></a>&nbsp;
+<a href="https://codeforces.com/profile/Truebrace05"><img src="assets/icons/codeforces-purple.svg" width="36" height="36"></a>&nbsp;
+<a href="https://huggingface.co/divisivefallacy"><img src="assets/icons/huggingface-purple.svg" width="36" height="36"></a>&nbsp;
+<a href="mailto:asthabansal1705@gmail.com"><img src="assets/icons/gmail-purple.svg" width="36" height="36"></a>
 
 </td>
 
 <td width="48%" align="center" valign="middle">
 
-<img
-  src="assets/icons/profile-scanner.gif"
-  width="380"
-  alt="Live Profile Scanner"
-/>
+<img src="assets/icons/profile-scanner.gif" width="400" alt="Live Profile Scanner" />
 
 </td>
-
 </tr>
 </table>
 
