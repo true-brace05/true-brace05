@@ -168,89 +168,108 @@ competitive programming, and open source.
 
 <img src="assets/icons/languages.svg" width="42" height="42" alt="Languages">
 
-### Languages
+<h3>Languages</h3>
 
-<br>
-
+<table align="center">
+<tr>
+<td width="38" align="center">
 <img src="assets/icons/cpp.svg" width="24" height="24" alt="C++">
-&nbsp;
-<b>C++</br>
+</td>
+<td align="left"><b>C++</b></td>
+</tr>
 
-<br>
-
+<tr>
+<td align="center">
 <img src="assets/icons/python.svg" width="24" height="24" alt="Python">
-&nbsp;
-<b>Python</b>
+</td>
+<td align="left"><b>Python</b></td>
+</tr>
 
-<br>
-
+<tr>
+<td align="center">
 <img src="assets/icons/c.svg" width="24" height="24" alt="C">
-&nbsp;
-<b>C</b>
+</td>
+<td align="left"><b>C</b></td>
+</tr>
 
-<br>
-
+<tr>
+<td align="center">
 <img src="assets/icons/cuda.svg" width="24" height="24" alt="CUDA">
-&nbsp;
-<b>CUDA</b>
+</td>
+<td align="left"><b>CUDA</b></td>
+</tr>
+</table>
 
 </td>
+
 
 <td width="33%" valign="top" align="center">
 
 <img src="assets/icons/tools.svg" width="42" height="42" alt="Tools">
 
-### Tools & Technologies
+<h3>Tools &amp; Technologies</h3>
 
-<br>
-
+<table align="center">
+<tr>
+<td width="38" align="center">
 <img src="assets/icons/git.svg" width="24" height="24" alt="Git">
-&nbsp;
-<b>Git</b>
+</td>
+<td align="left"><b>Git</b></td>
+</tr>
 
-<br>
-
+<tr>
+<td align="center">
 <img src="assets/icons/linux.svg" width="24" height="24" alt="Linux">
-&nbsp;
-<b>Linux</b>
+</td>
+<td align="left"><b>Linux</b></td>
+</tr>
 
-<br>
-
+<tr>
+<td align="center">
 <img src="assets/icons/cmake.svg" width="24" height="24" alt="CMake">
-&nbsp;
-<b>CMake</b>
+</td>
+<td align="left"><b>CMake</b></td>
+</tr>
 
-<br>
-
+<tr>
+<td align="center">
 <img src="assets/icons/mysql.svg" width="24" height="24" alt="MySQL">
-&nbsp;
-<b>MySQL</b>
+</td>
+<td align="left"><b>MySQL</b></td>
+</tr>
 
-<br>
-
+<tr>
+<td align="center">
 <img src="assets/icons/vscode.svg" width="24" height="24" alt="VS Code">
-&nbsp;
-<b>VS Code</b>
+</td>
+<td align="left"><b>VS Code</b></td>
+</tr>
+</table>
 
 </td>
+
 
 <td width="33%" valign="top" align="center">
 
 <img src="assets/icons/target.svg" width="42" height="42" alt="Currently Learning">
 
-### Currently Learning
+<h3>Currently Learning</h3>
 
-<br>
-
+<table align="center">
+<tr>
+<td width="38" align="center">
 <img src="assets/icons/pytorch.svg" width="24" height="24" alt="PyTorch">
-&nbsp;
-<b>PyTorch</b>
+</td>
+<td align="left"><b>PyTorch</b></td>
+</tr>
 
-<br>
-
+<tr>
+<td align="center">
 <img src="assets/icons/github.svg" width="24" height="24" alt="Open Source">
-&nbsp;
-<b>Open Source Development</b>
+</td>
+<td align="left"><b>Open Source<br>Development</b></td>
+</tr>
+</table>
 
 </td>
 
@@ -287,14 +306,14 @@ competitive programming, and open source.
 
 <img
   src="assets/icons/section-open-source.svg"
-  width="58"
-  height="58"
+  width="56"
+  height="56"
   alt="Open Source"
 />
 
 </td>
 
-<td width="82%" valign="middle">
+<td width="82%" align="left" valign="middle">
 
 <h3>Learning by contributing</h3>
 
@@ -306,12 +325,14 @@ taking on larger contributions.
 
 <img
   src="assets/icons/github.svg"
-  width="24"
-  height="24"
+  width="22"
+  height="22"
   alt="GitHub"
 />
+&nbsp;
+<b>GitHub</b>
 
-&nbsp;&nbsp;
+<br><br>
 
 <b>Understand</b>
 &nbsp;&nbsp;→&nbsp;&nbsp;
