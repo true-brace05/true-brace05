@@ -17,11 +17,11 @@ into PyTorch, high-performance systems, and open source.
 
 <br>
 
-<a href="https://github.com/true-brace05"><img src="assets/icons/github-purple.svg" width="36" height="36"></a>&nbsp;
-<a href="https://www.linkedin.com/in/astha-bansal05/"><img src="assets/icons/linkedin-purple.svg" width="36" height="36"></a>&nbsp;
-<a href="https://codeforces.com/profile/Truebrace05"><img src="assets/icons/codeforces-purple.svg" width="36" height="36"></a>&nbsp;
-<a href="https://huggingface.co/divisivefallacy"><img src="assets/icons/huggingface-purple.svg" width="36" height="36"></a>&nbsp;
-<a href="mailto:asthabansal1705@gmail.com"><img src="assets/icons/gmail-purple.svg" width="36" height="36"></a>
+<a href="https://github.com/true-brace05"><img src="assets/icons/github.svg" width="36" height="36"></a>&nbsp;
+<a href="https://www.linkedin.com/in/astha-bansal05/"><img src="assets/icons/linkedin.svg" width="36" height="36"></a>&nbsp;
+<a href="https://codeforces.com/profile/Truebrace05"><img src="assets/icons/codeforces.svg" width="36" height="36"></a>&nbsp;
+<a href="https://huggingface.co/divisivefallacy"><img src="assets/icons/huggingface.svg" width="36" height="36"></a>&nbsp;
+<a href="mailto:asthabansal1705@gmail.com"><img src="assets/icons/gmail.svg" width="36" height="36"></a>
 
 </td>
 
@@ -146,64 +146,55 @@ into PyTorch, high-performance systems, and open source.
 
 ## TECH STACK
 
-<table border="0" width="100%" cellpadding="0" cellspacing="0">
-<tr>
-<td align="left">
+<table border="1" cellspacing="0" cellpadding="20" width="100%">
+<tr><td>
 
-<img
-  src="./assets/icons/section-tech.svg"
-  width="32"
-  alt="Tech Stack"
-/>
-&nbsp;&nbsp;
-<strong>TECH STACK</strong>
+<img src="./assets/icons/section-tech.svg" width="28" valign="middle" alt="Tech Stack">&nbsp;&nbsp;<strong>TECH STACK</strong>
 
 <br><br>
 
 <strong>LANGUAGES</strong>
-
 <br>
 
-<img src="./assets/icons/cpp.svg" width="48" alt="C++">
-&nbsp;&nbsp;&nbsp;
-<img src="./assets/icons/python.svg" width="48" alt="Python">
-&nbsp;&nbsp;&nbsp;
-<img src="./assets/icons/c.svg" width="48" alt="C">
-&nbsp;&nbsp;&nbsp;
-<img src="./assets/icons/cuda.svg" width="48" alt="CUDA">
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td align="center" width="80"><img src="./assets/icons/cpp.svg" width="42"></td>
+<td align="center" width="80"><img src="./assets/icons/python.svg" width="42"></td>
+<td align="center" width="80"><img src="./assets/icons/c.svg" width="42"></td>
+<td align="center" width="80"><img src="./assets/icons/cuda.svg" width="42"></td>
+</tr>
+</table>
 
-<br><br>
+<br>
 
 <strong>TOOLS &amp; TECHNOLOGIES</strong>
-
 <br>
 
-<img src="./assets/icons/git.svg" width="48" alt="Git">
-&nbsp;&nbsp;&nbsp;
-<img src="./assets/icons/linux.svg" width="48" alt="Linux">
-&nbsp;&nbsp;&nbsp;
-<img src="./assets/icons/cmake.svg" width="48" alt="CMake">
-&nbsp;&nbsp;&nbsp;
-<img src="./assets/icons/mysql.svg" width="48" alt="MySQL">
-&nbsp;&nbsp;&nbsp;
-<img src="./assets/icons/vscode.svg" width="48" alt="VS Code">
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td align="center" width="80"><img src="./assets/icons/git.svg" width="42"></td>
+<td align="center" width="80"><img src="./assets/icons/linux.svg" width="42"></td>
+<td align="center" width="80"><img src="./assets/icons/cmake.svg" width="42"></td>
+<td align="center" width="80"><img src="./assets/icons/mysql.svg" width="42"></td>
+<td align="center" width="80"><img src="./assets/icons/vscode.svg" width="42"></td>
+</tr>
+</table>
 
-<br><br>
+<br>
 
 <strong>DATA &amp; ML</strong>
-
 <br>
 
-<img src="./assets/icons/numpy.svg" width="48" alt="NumPy">
-&nbsp;&nbsp;&nbsp;
-<img src="./assets/icons/pandas.svg" width="48" alt="Pandas">
-&nbsp;&nbsp;&nbsp;
-<img src="./assets/icons/matplotlib.svg" width="48" alt="Matplotlib">
-&nbsp;&nbsp;&nbsp;
-<img src="./assets/icons/pytorch.svg" width="48" alt="PyTorch">
-
-</td>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td align="center" width="80"><img src="./assets/icons/numpy.svg" width="42"></td>
+<td align="center" width="80"><img src="./assets/icons/pandas.svg" width="42"></td>
+<td align="center" width="80"><img src="./assets/icons/matplotlib.svg" width="42"></td>
+<td align="center" width="80"><img src="./assets/icons/pytorch.svg" width="42"></td>
 </tr>
+</table>
+
+</td></tr>
 </table>
 
 ## OPEN SOURCE JOURNEY
