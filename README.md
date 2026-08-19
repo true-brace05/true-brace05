@@ -329,16 +329,6 @@ taking on larger contributions.
   height="22"
   alt="GitHub"
 />
-&nbsp;
-<b>GitHub</b>
-
-<br><br>
-
-<b>Understand</b>
-&nbsp;&nbsp;→&nbsp;&nbsp;
-<b>Build</b>
-&nbsp;&nbsp;→&nbsp;&nbsp;
-<b>Contribute</b>
 
 </td>
 
@@ -352,36 +342,140 @@ taking on larger contributions.
 
 <div align="center">
 
+<table>
+<tr>
+
+<td align="center" width="20%">
+
 <a href="https://github.com/true-brace05">
-GitHub
+
+<img
+  src="assets/icons/github.svg"
+  width="34"
+  height="34"
+  alt="GitHub"
+/>
+
+<br>
+
+<b>GitHub</b>
+
+<br>
+
+<sub>@true-brace05</sub>
+
 </a>
 
-&nbsp;&nbsp;·&nbsp;&nbsp;
+</td>
+
+<td align="center" width="20%">
 
 <a href="https://www.linkedin.com/in/astha-bansal05/">
-LinkedIn
+
+<img
+  src="assets/icons/linkedin.svg"
+  width="34"
+  height="34"
+  alt="LinkedIn"
+/>
+
+<br>
+
+<b>LinkedIn</b>
+
+<br>
+
+<sub>/in/your-profile</sub>
+
 </a>
 
-&nbsp;&nbsp;·&nbsp;&nbsp;
+</td>
+
+<td align="center" width="20%">
 
 <a href="https://codeforces.com/profile/Truebrace05">
-Codeforces
+
+<img
+  src="assets/icons/codeforces.svg"
+  width="34"
+  height="34"
+  alt="Codeforces"
+/>
+
+<br>
+
+<b>Codeforces</b>
+
+<br>
+
+<sub>@true-brace05</sub>
+
 </a>
 
-&nbsp;&nbsp;·&nbsp;&nbsp;
+</td>
+
+<td align="center" width="20%">
 
 <a href="https://huggingface.co/divisivefallacy">
-Hugging Face
+
+<img
+  src="assets/icons/huggingface.svg"
+  width="34"
+  height="34"
+  alt="Hugging Face"
+/>
+
+<br>
+
+<b>Hugging Face</b>
+
+<br>
+
+<sub>@divisivefallacy</sub>
+
 </a>
 
-&nbsp;&nbsp;·&nbsp;&nbsp;
+</td>
+
+<td align="center" width="20%">
 
 <a href="asthabansal1705@gmail.com">
-Email
+
+<img
+  src="assets/icons/gmail.svg"
+  width="34"
+  height="34"
+  alt="Email"
+/>
+
+<br>
+
+<b>Email</b>
+
 </a>
 
-<br><br>
+</td>
 
-<sub>Learn · Build · Understand · Contribute</sub>
+</tr>
+</table>
+
+<br>
+
+<img
+  src="assets/icons/section-connect.svg"
+  width="40"
+  height="40"
+  alt="Connect"
+/>
+
+<br>
+
+<b>Learn</b>
+&nbsp; · &nbsp;
+<b>Build</b>
+&nbsp; · &nbsp;
+<b>Understand</b>
+&nbsp; · &nbsp;
+<b>Contribute</b>
 
 </div>
