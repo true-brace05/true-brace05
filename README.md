@@ -96,7 +96,7 @@ competitive programming, and open source.
 
 ---
 
-## FEATURED PROJECTS
+
 
 ## FEATURED PROJECTS
 
@@ -166,31 +166,91 @@ competitive programming, and open source.
 
 <td width="33%" valign="top" align="center">
 
+<img src="assets/icons/languages.svg" width="42" height="42" alt="Languages">
+
 ### Languages
 
-`C++`  
-`Python`  
-`C`  
-`CUDA`
+<br>
+
+<img src="assets/icons/cpp.svg" width="24" height="24" alt="C++">
+&nbsp;
+<b>C++</b>
+
+<br><br>
+
+<img src="assets/icons/python.svg" width="24" height="24" alt="Python">
+&nbsp;
+<b>Python</b>
+
+<br><br>
+
+<img src="assets/icons/c.svg" width="24" height="24" alt="C">
+&nbsp;
+<b>C</b>
+
+<br><br>
+
+<img src="assets/icons/cuda.svg" width="24" height="24" alt="CUDA">
+&nbsp;
+<b>CUDA</b>
 
 </td>
 
 <td width="33%" valign="top" align="center">
+
+<img src="assets/icons/tools.svg" width="42" height="42" alt="Tools">
 
 ### Tools & Technologies
 
-`Git`  
-`Linux`  
-`CMake`
+<br>
+
+<img src="assets/icons/git.svg" width="24" height="24" alt="Git">
+&nbsp;
+<b>Git</b>
+
+<br><br>
+
+<img src="assets/icons/linux.svg" width="24" height="24" alt="Linux">
+&nbsp;
+<b>Linux</b>
+
+<br><br>
+
+<img src="assets/icons/cmake.svg" width="24" height="24" alt="CMake">
+&nbsp;
+<b>CMake</b>
+
+<br><br>
+
+<img src="assets/icons/mysql.svg" width="24" height="24" alt="MySQL">
+&nbsp;
+<b>MySQL</b>
+
+<br><br>
+
+<img src="assets/icons/vscode.svg" width="24" height="24" alt="VS Code">
+&nbsp;
+<b>VS Code</b>
 
 </td>
 
 <td width="33%" valign="top" align="center">
 
+<img src="assets/icons/target.svg" width="42" height="42" alt="Currently Learning">
+
 ### Currently Learning
 
-`PyTorch`  
-`Open Source Development`
+<br>
+
+<img src="assets/icons/pytorch.svg" width="24" height="24" alt="PyTorch">
+&nbsp;
+<b>PyTorch</b>
+
+<br><br>
+
+<img src="assets/icons/github.svg" width="24" height="24" alt="Open Source">
+&nbsp;
+<b>Open Source Development</b>
 
 </td>
 
@@ -198,7 +258,6 @@ competitive programming, and open source.
 </table>
 
 </div>
----
 
 ---
 
@@ -224,15 +283,41 @@ competitive programming, and open source.
 <table>
 <tr>
 
-<td width="70%" align="center">
+<td width="18%" align="center" valign="middle">
 
-Learning how to contribute to real-world codebases — starting with
-issues I can understand end-to-end, learning from maintainers, and
-gradually taking on larger contributions.
+<img
+  src="assets/icons/section-open-source.svg"
+  width="58"
+  height="58"
+  alt="Open Source"
+/>
+
+</td>
+
+<td width="82%" valign="middle">
+
+<h3>Learning by contributing</h3>
+
+Learning how to work with real-world codebases — starting with issues
+I can understand end-to-end, learning from maintainers, and gradually
+taking on larger contributions.
 
 <br><br>
 
-`Understand` · `Build` · `Contribute`
+<img
+  src="assets/icons/github.svg"
+  width="24"
+  height="24"
+  alt="GitHub"
+/>
+
+&nbsp;&nbsp;
+
+<b>Understand</b>
+&nbsp;&nbsp;→&nbsp;&nbsp;
+<b>Build</b>
+&nbsp;&nbsp;→&nbsp;&nbsp;
+<b>Contribute</b>
 
 </td>
 
