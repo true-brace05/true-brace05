@@ -210,11 +210,7 @@ into PyTorch, high-performance systems, and open source.
 ### GITHUB CONTRIBUTIONS
 
 <p align="center">
-<img
-  src="assets/contribution-graph.svg"
-  width="95%"
-  alt="GitHub contribution activity"
-/>
+<img src="assets/contributions-trend.svg" width="100%">
 </p>
 
 <br>
