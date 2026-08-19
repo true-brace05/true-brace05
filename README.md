@@ -356,13 +356,7 @@ taking on larger contributions.
   alt="GitHub"
 />
 
-<br>
 
-<b>GitHub</b>
-
-<br>
-
-<sub>@true-brace05</sub>
 
 </a>
 
@@ -379,13 +373,7 @@ taking on larger contributions.
   alt="LinkedIn"
 />
 
-<br>
 
-<b>LinkedIn</b>
-
-<br>
-
-<sub>/in/your-profile</sub>
 
 </a>
 
@@ -402,13 +390,6 @@ taking on larger contributions.
   alt="Codeforces"
 />
 
-<br>
-
-<b>Codeforces</b>
-
-<br>
-
-<sub>@true-brace05</sub>
 
 </a>
 
@@ -425,13 +406,7 @@ taking on larger contributions.
   alt="Hugging Face"
 />
 
-<br>
 
-<b>Hugging Face</b>
-
-<br>
-
-<sub>@divisivefallacy</sub>
 
 </a>
 
@@ -448,9 +423,7 @@ taking on larger contributions.
   alt="Email"
 />
 
-<br>
 
-<b>Email</b>
 
 </a>
 
