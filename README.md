@@ -342,113 +342,67 @@ taking on larger contributions.
 
 <div align="center">
 
-<table>
-<tr>
-
-<td align="center" width="20%">
-
-<a href="https://github.com/true-brace05">
-
-<img
-  src="assets/icons/github.svg"
-  width="34"
-  height="34"
-  alt="GitHub"
-/>
-
-
-
-</a>
-
-</td>
-
-<td align="center" width="20%">
-
-<a href="https://www.linkedin.com/in/astha-bansal05/">
-
-<img
-  src="assets/icons/linkedin.svg"
-  width="34"
-  height="34"
-  alt="LinkedIn"
-/>
-
-
-
-</a>
-
-</td>
-
-<td align="center" width="20%">
-
-<a href="https://codeforces.com/profile/Truebrace05">
-
-<img
-  src="assets/icons/codeforces.svg"
-  width="34"
-  height="34"
-  alt="Codeforces"
-/>
-
-
-</a>
-
-</td>
-
-<td align="center" width="20%">
-
-<a href="https://huggingface.co/divisivefallacy">
-
-<img
-  src="assets/icons/huggingface.svg"
-  width="34"
-  height="34"
-  alt="Hugging Face"
-/>
-
-
-
-</a>
-
-</td>
-
-<td align="center" width="20%">
-
-<a href="asthabansal1705@gmail.com">
-
-<img
-  src="assets/icons/gmail.svg"
-  width="34"
-  height="34"
-  alt="Email"
-/>
-
-
-
-</a>
-
-</td>
-
-</tr>
-</table>
-
-<br>
-
 <img
   src="assets/icons/section-connect.svg"
-  width="40"
-  height="40"
-  alt="Connect"
+  width="42"
+  height="42"
+  alt="Let's Connect"
 />
 
-<br>
+<br><br>
 
-<b>Learn</b>
-&nbsp; · &nbsp;
-<b>Build</b>
-&nbsp; · &nbsp;
-<b>Understand</b>
-&nbsp; · &nbsp;
-<b>Contribute</b>
+<a href="https://github.com/true-brace05">
+  <img
+    src="assets/icons/github.svg"
+    width="42"
+    height="42"
+    alt="GitHub"
+  />
+</a>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+<a href="https://www.linkedin.com/in/astha-bansal05/">
+  <img
+    src="assets/icons/linkedin.svg"
+    width="42"
+    height="42"
+    alt="LinkedIn"
+  />
+</a>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+<a href="https://codeforces.com/profile/Truebrace05">
+  <img
+    src="assets/icons/codeforces.svg"
+    width="42"
+    height="42"
+    alt="Codeforces"
+  />
+</a>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+<a href="https://huggingface.co/divisivefallacy">
+  <img
+    src="assets/icons/huggingface.svg"
+    width="42"
+    height="42"
+    alt="Hugging Face"
+  />
+</a>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+<a href="asthabansal1705@gmail.com">
+  <img
+    src="assets/icons/gmail.svg"
+    width="42"
+    height="42"
+    alt="Email"
+  />
+</a>
+
 
 </div>
