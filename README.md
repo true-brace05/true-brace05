@@ -148,14 +148,10 @@ into PyTorch, high-performance systems, and open source.
 
 <table border="1" cellspacing="0" cellpadding="20" width="100%">
 <tr><td>
-
 <img src="./assets/icons/section-tech.svg" width="28" valign="middle" alt="Tech Stack">&nbsp;&nbsp;<strong>TECH STACK</strong>
-
 <br><br>
-
 <strong>LANGUAGES</strong>
-<br>
-
+<br><br>
 <table border="0" cellspacing="0" cellpadding="0">
 <tr>
 <td align="center" width="80"><img src="./assets/icons/cpp.svg" width="42"></td>
@@ -164,12 +160,9 @@ into PyTorch, high-performance systems, and open source.
 <td align="center" width="80"><img src="./assets/icons/cuda.svg" width="42"></td>
 </tr>
 </table>
-
-<br>
-
+<br><br>
 <strong>TOOLS &amp; TECHNOLOGIES</strong>
-<br>
-
+<br><br>
 <table border="0" cellspacing="0" cellpadding="0">
 <tr>
 <td align="center" width="80"><img src="./assets/icons/git.svg" width="42"></td>
@@ -179,12 +172,9 @@ into PyTorch, high-performance systems, and open source.
 <td align="center" width="80"><img src="./assets/icons/vscode.svg" width="42"></td>
 </tr>
 </table>
-
-<br>
-
+<br><br>
 <strong>DATA &amp; ML</strong>
-<br>
-
+<br><br>
 <table border="0" cellspacing="0" cellpadding="0">
 <tr>
 <td align="center" width="80"><img src="./assets/icons/numpy.svg" width="42"></td>
@@ -193,7 +183,6 @@ into PyTorch, high-performance systems, and open source.
 <td align="center" width="80"><img src="./assets/icons/pytorch.svg" width="42"></td>
 </tr>
 </table>
-
 </td></tr>
 </table>
 
