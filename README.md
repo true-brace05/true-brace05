@@ -1,31 +1,52 @@
-<div align="center">
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+<tr>
+
+<td width="42%" align="center" valign="middle">
 
 <img
   src="assets/icons/profile-hero.svg"
-  width="420"
-  alt="Profile Hero"
+  width="380"
+  alt="Astha Bansal"
 />
 
-</div>
-<div align="center">
+</td>
 
-<img
-  src="assets/icons/profile-hero.svg"
-  width="420"
-  alt="Astha Bansal — Chess & Machine Learning"
-/>
+<td width="58%" valign="middle">
 
 <h1>ASTHA BANSAL</h1>
 
 <h3>Computer Science · AI & Data Science</h3>
 
 <p>
-  Building systems, exploring machine learning,<br>
-  solving problems, and contributing to open source.
+Building systems, exploring machine learning,
+competitive programming, and open source.
 </p>
 
-</div>
+<p>
+<b>JECRC University</b><br>
+B.Tech CSE · AI & Data Science · 2024–2028
+</p>
 
+<p>
+📍 Jaipur, India
+</p>
+
+<p>
+<a href="https://github.com/true-brace05">GitHub</a>
+&nbsp;·&nbsp;
+<a href="https://www.linkedin.com/in/astha-bansal05/">LinkedIn</a>
+&nbsp;·&nbsp;
+<a href="https://codeforces.com/profile/Truebrace05">Codeforces</a>
+&nbsp;·&nbsp;
+<a href="https://huggingface.co/divisivefallacy">Hugging Face</a>
+&nbsp;·&nbsp;
+<a href="mailto:asthabansal1705@gmail.com">Email</a>
+</p>
+
+</td>
+
+</tr>
+</table>
 
 # ASTHA BANSAL
 
