@@ -1,6 +1,6 @@
 <table border="0" cellspacing="0" cellpadding="0">
 <tr>
-<td width="52%" valign="middle">
+<td width="32%" valign="middle">
 
 <h1>ASTHA BANSAL</h1>
 
@@ -20,6 +20,7 @@ into PyTorch, high-performance systems, and open source.
 <a href="https://github.com/true-brace05"><img src="assets/icons/github.svg" width="52" height="52"></a>&nbsp;
 <a href="https://www.linkedin.com/in/astha-bansal05/"><img src="assets/icons/linkedin.svg" width="36" height="36"></a>&nbsp;
 <a href="https://codeforces.com/profile/Truebrace05"><img src="assets/icons/codeforces.svg" width="36" height="36"></a>&nbsp;
+<a href="https://leetcode.com/u/ASTHABANSAL/"><img src="assets/icons/leetcode.svg" width="36" height="36"></a>&nbsp;
 <a href="https://huggingface.co/divisivefallacy"><img src="assets/icons/huggingface.svg" width="36" height="36"></a>&nbsp;
 <a href="mailto:asthabansal1705@gmail.com"><img src="assets/icons/gmail.svg" width="36" height="36"></a>
 
@@ -155,41 +156,48 @@ into PyTorch, high-performance systems, and open source.
 <strong>TECH STACK</strong>
 </p>
 
-### LANGUAGES
+### **LANGUAGES**
 
 <p>
-<img src="assets/icons/cpp.svg" width="52" height="52" alt="C++"/>
+
+<img src="assets/icons/cpp.svg" width="36" height="36" alt="C++"/>
 &nbsp;&nbsp;&nbsp;
-<img src="assets/icons/python.svg" width="52" height="52" alt="Python"/>
+<img src="assets/icons/python.svg" width="36" height="36" alt="Python"/>
 &nbsp;&nbsp;&nbsp;
-<img src="assets/icons/c.svg" width="52" height="52" alt="C"/>
+<img src="assets/icons/c.svg" width="36" height="36" alt="C"/>
 &nbsp;&nbsp;&nbsp;
-<img src="assets/icons/cuda.svg" width="52" height="52" alt="CUDA"/>
+<img src="assets/icons/cuda.svg" width="36" height="36" alt="CUDA"/>
+
 </p>
 
-### TOOLS & TECHNOLOGIES
+### **TOOLS & TECHNOLOGIES**
 
 <p>
-<img src="assets/icons/git.svg" width="52" height="52" alt="Git"/>
+
+<img src="assets/icons/git.svg" width="36" height="36" alt="Git"/>
 &nbsp;&nbsp;&nbsp;
-<img src="assets/icons/linux.svg" width="52" height="52" alt="Linux"/>
+<img src="assets/icons/linux.svg" width="36" height="36" alt="Linux"/>
 &nbsp;&nbsp;&nbsp;
-<img src="assets/icons/cmake.svg" width="52" height="52" alt="CMake"/>
+<img src="assets/icons/cmake.svg" width="36" height="36" alt="CMake"/>
 &nbsp;&nbsp;&nbsp;
-<img src="assets/icons/mysql.svg" width="52" height="52" alt="MySQL"/>
+<img src="assets/icons/mysql.svg" width="36" height="36" alt="MySQL"/>
 &nbsp;&nbsp;&nbsp;
-<img src="assets/icons/vscode.svg" width="52" height="52" alt="VS Code"/>
+<img src="assets/icons/vscode.svg" width="36" height="36" alt="VS Code"/>
+
 </p>
-### DATA & ML
+
+### **DATA & ML**
 
 <p>
-<img src="assets/icons/numpy.svg" width="52" height="52" alt="NumPy"/>
+
+<img src="assets/icons/numpy.svg" width="36" height="36" alt="NumPy"/>
 &nbsp;&nbsp;&nbsp;
-<img src="assets/icons/pandas.svg" width="52" height="52" alt="Pandas"/>
+<img src="assets/icons/pandas.svg" width="36" height="36" alt="Pandas"/>
 &nbsp;&nbsp;&nbsp;
-<img src="assets/icons/matplotlib.svg" width="52" height="52" alt="Matplotlib"/>
+<img src="assets/icons/matplotlib.svg" width="36" height="36" alt="Matplotlib"/>
 &nbsp;&nbsp;&nbsp;
-<img src="assets/icons/pytorch.svg" width="52" height="52" alt="PyTorch"/>
+<img src="assets/icons/pytorch.svg" width="36" height="36" alt="PyTorch"/>
+
 </p>
 
 </td>
