@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="48" height="48">
+<path d="M0 0 C1.65 0 3.3 0 5 0 C5 10.89 5 21.78 5 33 C3.35 33 1.7 33 0 33 C0 22.11 0 11.22 0 0 Z " fill="#8C92C7" transform="translate(10,13)"/>
+<path d="M0 0 C1.65 0 3.3 0 5 0 C5 10.89 5 21.78 5 33 C3.35 33 1.7 33 0 33 C0 22.11 0 11.22 0 0 Z " fill="#8C92C7" transform="translate(34,2)"/>
+<path d="M0 0 C1.65 0 3.3 0 5 0 C5 3.3 5 6.6 5 10 C3.35 10 1.7 10 0 10 C0 6.7 0 3.4 0 0 Z " fill="#8C92C7" transform="translate(26,33)"/>
+<path d="M0 0 C1.65 0 3.3 0 5 0 C5 3.3 5 6.6 5 10 C3.35 10 1.7 10 0 10 C0 6.7 0 3.4 0 0 Z " fill="#8C92C7" transform="translate(18,25)"/>
+<path d="M0 0 C1.65 0 3.3 0 5 0 C5 3.3 5 6.6 5 10 C3.35 10 1.7 10 0 10 C0 6.7 0 3.4 0 0 Z " fill="#8C92C7" transform="translate(26,12)"/>
+<path d="M0 0 C1.65 0 3.3 0 5 0 C5 3.3 5 6.6 5 10 C3.35 10 1.7 10 0 10 C0 6.7 0 3.4 0 0 Z " fill="#8C92C7" transform="translate(18,4)"/>
+<path d="M0 0 C1.65 0 3.3 0 5 0 C5 1.65 5 3.3 5 5 C3.35 5 1.7 5 0 5 C0 3.35 0 1.7 0 0 Z " fill="#FC2B72" transform="translate(26,25)"/>
+<path d="M0 0 C1.65 0 3.3 0 5 0 C5 1.65 5 3.3 5 5 C3.35 5 1.7 5 0 5 C0 3.35 0 1.7 0 0 Z " fill="#F5AF00" transform="translate(18,17)"/>
+</svg>

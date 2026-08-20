@@ -17,7 +17,7 @@ into PyTorch, high-performance systems, and open source.
 
 <br>
 
-<a href="https://github.com/true-brace05"><img src="assets/icons/github.svg" width="36" height="36"></a>&nbsp;
+<a href="https://github.com/true-brace05"><img src="assets/icons/github.svg" width="52" height="52"></a>&nbsp;
 <a href="https://www.linkedin.com/in/astha-bansal05/"><img src="assets/icons/linkedin.svg" width="36" height="36"></a>&nbsp;
 <a href="https://codeforces.com/profile/Truebrace05"><img src="assets/icons/codeforces.svg" width="36" height="36"></a>&nbsp;
 <a href="https://huggingface.co/divisivefallacy"><img src="assets/icons/huggingface.svg" width="36" height="36"></a>&nbsp;
@@ -150,7 +150,7 @@ into PyTorch, high-performance systems, and open source.
 <td width="50%" valign="top">
 
 <p>
-<img src="assets/icons/tech-stack.svg" width="28" height="28" alt="Tech Stack"/>
+<img src="assets/icons/section-tech.svg" width="28" height="28" alt="Tech Stack"/>
 &nbsp;&nbsp;
 <strong>TECH STACK</strong>
 </p>
@@ -167,8 +167,6 @@ into PyTorch, high-performance systems, and open source.
 <img src="assets/icons/cuda.svg" width="52" height="52" alt="CUDA"/>
 </p>
 
----
-
 ### TOOLS & TECHNOLOGIES
 
 <p>
@@ -182,9 +180,6 @@ into PyTorch, high-performance systems, and open source.
 &nbsp;&nbsp;&nbsp;
 <img src="assets/icons/vscode.svg" width="52" height="52" alt="VS Code"/>
 </p>
-
----
-
 ### DATA & ML
 
 <p>
@@ -202,7 +197,7 @@ into PyTorch, high-performance systems, and open source.
 <td width="50%" valign="top">
 
 <p>
-<img src="assets/icons/open-source.svg" width="28" height="28" alt="Open Source"/>
+<img src="assets/icons/section-open-source.svg" width="28" height="28" alt="Open Source"/>
 &nbsp;&nbsp;
 <strong>OPEN SOURCE</strong>
 </p>
@@ -210,16 +205,14 @@ into PyTorch, high-performance systems, and open source.
 ### GITHUB CONTRIBUTIONS
 
 <p align="center">
-<img src="assets/contributions-trend.svg" width="100%">
+<img src="assets/contribution-graph.svg" width="100%">
 </p>
 
 <br>
 
-<p align="center">
 
-<strong>❝ Always learning. Always building. ❞</strong>
 
-<br><br>
+
 
 <img
   src="assets/icons/github.svg"
@@ -238,7 +231,7 @@ into PyTorch, high-performance systems, and open source.
 ## LET'S CONNECT
 
 <div align="center">
-<a href="https://github.com/true-brace05"><img src="assets/icons/github.svg" width="36" height="36" alt="GitHub"></a>
+<a href="https://github.com/true-brace05"><img src="assets/icons/github.svg" width="52" height="52" alt="GitHub"></a>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <a href="https://www.linkedin.com/in/astha-bansal05/"><img src="assets/icons/linkedin.svg" width="36" height="36" alt="LinkedIn"></a>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
