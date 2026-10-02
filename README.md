@@ -30,6 +30,8 @@ into PyTorch, high-performance systems, and open source.
 
 <img src="assets/icons/profile-scanner.gif" width="400" alt="Live Profile Scanner" />
 
+<img src="https://oculus-counter.oculus-visits.workers.dev/count.svg?id=true-brace05" alt="Profile visits" />
+
 </td>
 </tr>
 </table>
