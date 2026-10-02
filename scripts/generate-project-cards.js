@@ -1,7 +1,11 @@
-import fs from "fs";
+import fs from "node:fs";
+import path from "node:path";
+import { fileURLToPath } from "node:url";
 
-const OUTPUT_DIR = "assets/cards";
-
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+const ROOT_DIR = path.resolve(__dirname, "..");
+const OUTPUT_DIR = path.join(ROOT_DIR, "assets", "cards");
 const CARD_WIDTH = 520;
 const CARD_HEIGHT = 250;
 
@@ -26,9 +30,8 @@ const projects = [
       "under GPU parallelism.",
     ],
     tags: ["C++", "CUDA"],
-    url: "YOUR_ORDERBOOK_REPO",
+    url: "https://github.com/true-brace05/gpu-orderbook-simulator",
   },
-
   {
     filename: "matching-engine.svg",
     title: "C++ Matching Engine",
@@ -38,9 +41,8 @@ const projects = [
       "matching and cancellation.",
     ],
     tags: ["C++"],
-    url: "YOUR_MATCHING_ENGINE_REPO",
+    url: "https://github.com/true-brace05/Matching-Engine-CPP",
   },
-
   {
     filename: "brain-tumor.svg",
     title: "Brain Tumor Detection CNN",
@@ -50,9 +52,8 @@ const projects = [
       "methods.",
     ],
     tags: ["Python", "CNN"],
-    url: "YOUR_CNN_HUGGINGFACE_URL",
+    url: "https://huggingface.co/spaces/divisivefallacy/Brain-Tumor-Detection",
   },
-
   {
     filename: "compression.svg",
     title: "Lossless RGB Compression Engine",
@@ -61,7 +62,7 @@ const projects = [
       "compression for RGB image data.",
     ],
     tags: ["C++"],
-    url: "YOUR_COMPRESSION_REPO",
+    url: "https://github.com/true-brace05/huffman_coding",
   },
 ];
 
@@ -122,7 +123,6 @@ function createCard(project) {
   />
 `);
 
-  // Small decorative accent
   svg.push(`
   <rect
     x="24"
@@ -134,19 +134,12 @@ function createCard(project) {
   />
 `);
 
-  // Title
   const titleLines = [];
 
   if (project.title === "GPU-Accelerated Order Book Simulator") {
-    titleLines.push(
-      "GPU-Accelerated Order Book",
-      "Simulator"
-    );
+    titleLines.push("GPU-Accelerated Order Book", "Simulator");
   } else if (project.title === "Lossless RGB Compression Engine") {
-    titleLines.push(
-      "Lossless RGB Compression",
-      "Engine"
-    );
+    titleLines.push("Lossless RGB Compression", "Engine");
   } else {
     titleLines.push(project.title);
   }
@@ -164,10 +157,7 @@ function createCard(project) {
     `);
   });
 
-  // Description
-  const descriptionStartY =
-    100 +
-    Math.max(0, titleLines.length - 1) * 8;
+  const descriptionStartY = 100 + Math.max(0, titleLines.length - 1) * 8;
 
   project.description.forEach((line, index) => {
     svg.push(`
@@ -182,27 +172,15 @@ function createCard(project) {
     `);
   });
 
-  // Tags
   let tagX = 48;
   const tagY = 168;
 
   for (const tag of project.tags) {
-    const tagWidth =
-      tag.length * 8 + 24;
-
-    svg.push(
-      createTag(
-        tag,
-        tagX,
-        tagY,
-        tagWidth
-      )
-    );
-
+    const tagWidth = tag.length * 8 + 24;
+    svg.push(createTag(tag, tagX, tagY, tagWidth));
     tagX += tagWidth + 8;
   }
 
-  // Bottom separator
   svg.push(`
   <line
     x1="48"
@@ -214,7 +192,6 @@ function createCard(project) {
   />
 `);
 
-  // Link text
   svg.push(`
   <text
     x="48"
@@ -226,28 +203,16 @@ function createCard(project) {
   >View repository →</text>
 `);
 
-  svg.push(`
-</svg>
-`);
-
+  svg.push("\n</svg>\n");
   return svg.join("\n");
 }
 
-fs.mkdirSync(OUTPUT_DIR, {
-  recursive: true,
-});
+fs.mkdirSync(OUTPUT_DIR, { recursive: true });
 
 for (const project of projects) {
-  const outputPath =
-    `${OUTPUT_DIR}/${project.filename}`;
-
-  fs.writeFileSync(
-    outputPath,
-    createCard(project),
-    "utf8"
-  );
-
-  console.log(`✓ Generated ${outputPath}`);
+  const outputPath = path.join(OUTPUT_DIR, project.filename);
+  fs.writeFileSync(outputPath, createCard(project), "utf8");
+  console.log(`Generated ${path.relative(process.cwd(), outputPath)}`);
 }
 
-console.log("\nGenerated all project cards.");
+console.log("Generated all featured project cards.");

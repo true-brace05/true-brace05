@@ -1,0 +1,16 @@
+{
+  "name": "true-brace05-dashboard",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "generate": "npm run generate:stats && npm run generate:projects && npm run generate:contributions && npm run validate",
+    "generate:stats": "node scripts/fetch-github-data.js && node scripts/generate-cards.js",
+    "generate:cards": "node scripts/generate-cards.js",
+    "generate:projects": "node scripts/generate-project-cards.js",
+    "generate:contributions": "python3 scripts/generate_contributions.py",
+    "validate": "python3 scripts/validate_dashboard.py"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

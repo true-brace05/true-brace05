@@ -46,7 +46,7 @@ into PyTorch, high-performance systems, and open source.
 <img
   src="assets/cards/repositories.svg"
   width="210"
-  alt="10 repositories"
+  alt="GitHub repository count"
 />
 </a>
 </td>
@@ -56,7 +56,7 @@ into PyTorch, high-performance systems, and open source.
 <img
   src="assets/cards/followers.svg"
   width="210"
-  alt="0 followers"
+  alt="GitHub follower count"
 />
 </a>
 </td>
@@ -66,7 +66,7 @@ into PyTorch, high-performance systems, and open source.
 <img
   src="assets/cards/stars.svg"
   width="210"
-  alt="0 stars"
+  alt="GitHub total stars"
 />
 </a>
 </td>
@@ -76,7 +76,7 @@ into PyTorch, high-performance systems, and open source.
 <img
   src="assets/cards/joined.svg"
   width="210"
-  alt="Joined GitHub in 2024"
+  alt="GitHub join year"
 />
 </a>
 </td>
