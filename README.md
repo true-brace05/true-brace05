@@ -1,6 +1,6 @@
-<table border="0" cellspacing="0" cellpadding="0">
+<table border="0" cellspacing="0" cellpadding="0" width="100%">
 <tr>
-<td width="32%" valign="middle">
+<td width="60%" valign="middle">
 
 <h1>ASTHA BANSAL</h1>
 
@@ -26,9 +26,9 @@ into PyTorch, high-performance systems, and open source.
 
 </td>
 
-<td width="48%" align="center" valign="middle">
+<td width="40%" align="center" valign="middle">
 
-<img src="https://oculus-counter.oculus-visits.workers.dev/count.svg?id=true-brace05" alt="Profile visits" width="60" />
+<img src="https://oculus-counter.oculus-visits.workers.dev/count.svg?id=true-brace05" alt="Profile visits" width="200" />
 
 </td>
 </tr>
