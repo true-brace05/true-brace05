@@ -28,7 +28,7 @@ into PyTorch, high-performance systems, and open source.
 
 <td width="48%" align="center" valign="middle">
 
-<img src="https://oculus-counter.oculus-visits.workers.dev/count.svg?id=true-brace05" alt="Profile visits" />
+<img src="https://oculus-counter.oculus-visits.workers.dev/count.svg?id=true-brace05" alt="Profile visits" width="60" />
 
 </td>
 </tr>
